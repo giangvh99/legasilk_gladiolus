@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE9FE" />
+      <stop offset="100%" stop-color="#DDD6FE" />
+    </linearGradient>
+    <linearGradient id="bookmarkSilk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="240" rx="16" fill="url(#bgGrad4)"/>
+  
+  <!-- Illustration: Finished Bookmark held by kid hands with book -->
+  <g transform="translate(160, 20)" filter="url(#shadow)">
+    <!-- Book pages -->
+    <path d="M -50 40 Q 0 30 40 40 L 40 160 Q 0 150 -50 160 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <path d="M 130 40 Q 80 30 40 40 L 40 160 Q 80 150 130 160 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+
+    <!-- Bookmark resting between pages -->
+    <g transform="translate(10, 10)">
+      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#bookmarkSilk)" stroke="#7C3AED" stroke-width="2"/>
+      <!-- Top loop with wooden bead -->
+      <path d="M 30 0 Q 30 -25 35 -30 Q 25 -25 30 0" stroke="#F59E0B" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-15" r="5" fill="#ECC695"/>
+      <!-- Pattern -->
+      <polygon points="30,30 45,45 30,60 15,45" fill="#FFF" opacity="0.9"/>
+      <polygon points="30,75 45,90 30,105 15,90" fill="#FFF" opacity="0.9"/>
+      <!-- Tassels at bottom -->
+      <line x1="10" y1="150" x2="6" y2="175" stroke="#F59E0B" stroke-width="2"/>
+      <line x1="20" y1="150" x2="18" y2="180" stroke="#EC4899" stroke-width="2"/>
+      <line x1="30" y1="150" x2="30" y2="185" stroke="#8B5CF6" stroke-width="2"/>
+      <line x1="40" y1="150" x2="42" y2="180" stroke="#EC4899" stroke-width="2"/>
+      <line x1="50" y1="150" x2="54" y2="175" stroke="#F59E0B" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Mascot celebrating -->
+  <g transform="translate(40, 70)">
+    <circle cx="35" cy="40" r="28" fill="#B8F2A0" stroke="#4E9940" stroke-width="2"/>
+    <circle cx="28" cy="36" r="3.5" fill="#1D2D44"/><circle cx="27" cy="34" r="1" fill="#FFF"/>
+    <circle cx="42" cy="36" r="3.5" fill="#1D2D44"/><circle cx="41" cy="34" r="1" fill="#FFF"/>
+    <ellipse cx="22" cy="43" rx="4" ry="2.5" fill="#FF6584" opacity="0.6"/>
+    <ellipse cx="48" cy="43" rx="4" ry="2.5" fill="#FF6584" opacity="0.6"/>
+    <path d="M 31 43 Q 35 48 39 43" stroke="#1D2D44" stroke-width="2" fill="none"/>
+    <!-- Confetti -->
+    <circle cx="10" cy="15" r="3" fill="#FF3366"/>
+    <circle cx="55" cy="5" r="3.5" fill="#FFB703"/>
+    <polygon points="65,25 68,30 73,31 69,35 65,30" fill="#00D2B4"/>
+  </g>
+
+  <!-- Big Play Button Overlay -->
+  <g transform="translate(200, 105)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="30" fill="#8B5CF6"/>
+    <polygon points="-8,-14 16,0 -8,14" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Bottom Lesson Title Bar -->
+  <rect x="0" y="195" width="400" height="45" fill="#2B2D42" opacity="0.9"/>
+  <text x="20" y="215" font-family="'Baloo 2', sans-serif" font-size="14" font-weight="800" fill="#A78BFA">
+    BÀI 4: THẮT TUA RUA &amp; KHOE KẸP SÁCH
+  </text>
+  <text x="20" y="230" font-family="'Quicksand', sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0">
+    Tháo kẹp khỏi khung &amp; xỏ hạt gỗ trang trí bookmark
+  </text>
+
+  <!-- Duration Badge -->
+  <rect x="330" y="206" width="55" height="22" rx="11" fill="#8B5CF6"/>
+  <text x="357" y="221" font-family="'Baloo 2', sans-serif" font-size="11" font-weight="800" fill="#FFF" text-anchor="middle">
+    04:00
+  </text>
+</svg>

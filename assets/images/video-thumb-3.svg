@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="rainbowStripes" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF476F" />
+      <stop offset="33%" stop-color="#FFD166" />
+      <stop offset="66%" stop-color="#06D6A0" />
+      <stop offset="100%" stop-color="#118AB2" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="240" rx="16" fill="url(#bgGrad3)"/>
+  
+  <!-- Illustration: Multiple colorful silk patterns -->
+  <g transform="translate(100, 25)" filter="url(#shadow)">
+    <!-- Swatch 1 -->
+    <rect x="0" y="0" width="60" height="150" rx="8" fill="#EF476F" stroke="#B8005A" stroke-width="2"/>
+    <polygon points="30,20 45,35 30,50 15,35" fill="#FFE57F"/>
+    <polygon points="30,60 45,75 30,90 15,75" fill="#FFE57F"/>
+    
+    <!-- Swatch 2 -->
+    <rect x="70" y="0" width="60" height="150" rx="8" fill="#FFD166" stroke="#D48B00" stroke-width="2"/>
+    <!-- Stripes -->
+    <rect x="70" y="30" width="60" height="15" fill="#118AB2"/>
+    <rect x="70" y="70" width="60" height="15" fill="#06D6A0"/>
+    <rect x="70" y="110" width="60" height="15" fill="#EF476F"/>
+
+    <!-- Swatch 3 -->
+    <rect x="140" y="0" width="60" height="150" rx="8" fill="#06D6A0" stroke="#00796B" stroke-width="2"/>
+    <circle cx="170" cy="35" r="10" fill="#FFD166"/>
+    <circle cx="170" cy="75" r="10" fill="#EF476F"/>
+    <circle cx="170" cy="115" r="10" fill="#FFE57F"/>
+  </g>
+
+  <!-- Big Play Button Overlay -->
+  <g transform="translate(200, 105)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="30" fill="#F59E0B"/>
+    <polygon points="-8,-14 16,0 -8,14" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Bottom Lesson Title Bar -->
+  <rect x="0" y="195" width="400" height="45" fill="#2B2D42" opacity="0.9"/>
+  <text x="20" y="215" font-family="'Baloo 2', sans-serif" font-size="14" font-weight="800" fill="#FFD166">
+    BÀI 3: VŨ ĐIỆU SẮC MÀU (ĐỔI CHỈ &amp; HOA VĂN)
+  </text>
+  <text x="20" y="230" font-family="'Quicksand', sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0">
+    Bí quyết nối sợi tơ giấu mối &amp; dệt quả trám truyền thống
+  </text>
+
+  <!-- Duration Badge -->
+  <rect x="330" y="206" width="55" height="22" rx="11" fill="#F59E0B"/>
+  <text x="357" y="221" font-family="'Baloo 2', sans-serif" font-size="11" font-weight="800" fill="#FFF" text-anchor="middle">
+    05:45
+  </text>
+</svg>

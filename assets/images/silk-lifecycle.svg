@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#2B2D42" flood-opacity="0.1"/>
+    </filter>
+    <linearGradient id="silkFlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5E7E"/>
+      <stop offset="50%" stop-color="#FFBE0B"/>
+      <stop offset="100%" stop-color="#00D2B4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Step 1: Lá Dâu Xanh (Mulberry Leaves) -->
+  <g transform="translate(20, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="170" height="195" rx="20" fill="#F0FFF4" stroke="#68D391" stroke-width="2.5"/>
+    <!-- Step Badge -->
+    <rect x="15" y="12" width="45" height="22" rx="11" fill="#38A169"/>
+    <text x="37" y="27" font-family="'Baloo 2', sans-serif" font-size="12" font-weight="800" fill="#FFF" text-anchor="middle">01</text>
+    
+    <!-- Illustration: Leaf & tiny cute caterpillar -->
+    <g transform="translate(50, 45)">
+      <path d="M 0 35 C 15 5, 55 10, 65 45 C 50 70, 15 65, 0 35 Z" fill="#48BB78" stroke="#276749" stroke-width="2"/>
+      <path d="M 5 36 Q 35 34 60 42" stroke="#276749" stroke-width="1.5" fill="none"/>
+      <!-- Tiny Silkworm eating leaf -->
+      <circle cx="20" cy="25" r="10" fill="#9AE6B4" stroke="#2F855A" stroke-width="1.5"/>
+      <circle cx="17" cy="23" r="1.5" fill="#1A202C"/>
+      <ellipse cx="23" cy="26" rx="2.5" ry="1.5" fill="#FF85A2"/>
+    </g>
+
+    <!-- Text -->
+    <text x="85" y="145" font-family="'Baloo 2', sans-serif" font-size="15" font-weight="800" fill="#22543D" text-anchor="middle">Trồng Dâu Nuôi Tằm</text>
+    <text x="85" y="165" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">Tằm ăn lá dâu lớn nhanh</text>
+    <text x="85" y="180" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">chuẩn bị nhả tơ óng</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M 200 115 L 215 115" stroke="#CBD5E0" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="215,110 225,115 215,120" fill="#CBD5E0"/>
+
+  <!-- Step 2: Kén Vàng Óng (Golden Cocoon) -->
+  <g transform="translate(225, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="170" height="195" rx="20" fill="#FFFDF0" stroke="#F6E05E" stroke-width="2.5"/>
+    <rect x="15" y="12" width="45" height="22" rx="11" fill="#D69E2E"/>
+    <text x="37" y="27" font-family="'Baloo 2', sans-serif" font-size="12" font-weight="800" fill="#FFF" text-anchor="middle">02</text>
+    
+    <!-- Illustration: Golden Cocoon with glowing threads -->
+    <g transform="translate(60, 48)">
+      <ellipse cx="25" cy="35" rx="22" ry="32" fill="#FAF089" stroke="#B7791F" stroke-width="2.5"/>
+      <path d="M 12 25 Q 30 18 38 28" stroke="#D69E2E" stroke-width="2" fill="none"/>
+      <path d="M 10 38 Q 28 45 40 36" stroke="#D69E2E" stroke-width="2" fill="none"/>
+      <path d="M 15 50 Q 28 42 36 52" stroke="#D69E2E" stroke-width="2" fill="none"/>
+      <!-- Sparkles -->
+      <polygon points="45,15 47,20 52,21 48,24 49,29 45,26 41,29 42,24 38,21 43,20" fill="#ECC94B"/>
+    </g>
+
+    <!-- Text -->
+    <text x="85" y="145" font-family="'Baloo 2', sans-serif" font-size="15" font-weight="800" fill="#744210" text-anchor="middle">Kén Tằm Nhả Tơ</text>
+    <text x="85" y="165" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">Mỗi chiếc kén vàng óng</text>
+    <text x="85" y="180" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">dài tới 1.000m sợi tơ</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M 405 115 L 420 115" stroke="#CBD5E0" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="420,110 430,115 420,120" fill="#CBD5E0"/>
+
+  <!-- Step 3: Ươm Tơ & Kéo Sợi (Silk Reeling & Dyeing) -->
+  <g transform="translate(430, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="170" height="195" rx="20" fill="#F0F9FF" stroke="#63B3ED" stroke-width="2.5"/>
+    <rect x="15" y="12" width="45" height="22" rx="11" fill="#3182CE"/>
+    <text x="37" y="27" font-family="'Baloo 2', sans-serif" font-size="12" font-weight="800" fill="#FFF" text-anchor="middle">03</text>
+    
+    <!-- Illustration: Reeling spool & rainbow dye -->
+    <g transform="translate(50, 48)">
+      <!-- Spool -->
+      <rect x="15" y="10" width="40" height="48" rx="6" fill="#ECC695" stroke="#A46E3F" stroke-width="2"/>
+      <rect x="12" y="18" width="46" height="32" rx="4" fill="#FF5E7E"/>
+      <line x1="20" y1="18" x2="20" y2="50" stroke="#FFF" stroke-width="1.5"/>
+      <line x1="30" y1="18" x2="30" y2="50" stroke="#FFF" stroke-width="1.5"/>
+      <line x1="40" y1="18" x2="40" y2="50" stroke="#FFF" stroke-width="1.5"/>
+      <line x1="50" y1="18" x2="50" y2="50" stroke="#FFF" stroke-width="1.5"/>
+      <!-- Thread unwinding -->
+      <path d="M 58 25 Q 75 15 80 35" fill="none" stroke="#FF5E7E" stroke-width="2.5"/>
+    </g>
+
+    <!-- Text -->
+    <text x="85" y="145" font-family="'Baloo 2', sans-serif" font-size="15" font-weight="800" fill="#2B6CB0" text-anchor="middle">Ươm Tơ &amp; Nhuộm Màu</text>
+    <text x="85" y="165" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">Kéo sợi tơ mềm mịn và</text>
+    <text x="85" y="180" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">nhuộm màu sắc rực rỡ</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <path d="M 610 115 L 625 115" stroke="#CBD5E0" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="625,110 635,115 625,120" fill="#CBD5E0"/>
+
+  <!-- Step 4: Dệt Lụa & Bộ Kit Legasilk (Weaving & Kid Craft) -->
+  <g transform="translate(635, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="150" height="195" rx="20" fill="#FFF5F5" stroke="#FEB2B2" stroke-width="2.5"/>
+    <rect x="15" y="12" width="45" height="22" rx="11" fill="#E53E3E"/>
+    <text x="37" y="27" font-family="'Baloo 2', sans-serif" font-size="12" font-weight="800" fill="#FFF" text-anchor="middle">04</text>
+    
+    <!-- Illustration: Colorful bookmark finished -->
+    <g transform="translate(45, 45)">
+      <rect x="10" y="5" width="40" height="65" rx="4" fill="url(#silkFlow)" stroke="#B37D4E" stroke-width="1.8"/>
+      <!-- Pattern -->
+      <polygon points="30,20 40,32 30,44 20,32" fill="#FFF" opacity="0.85"/>
+      <!-- Fringes -->
+      <line x1="16" y1="70" x2="14" y2="82" stroke="#FF5E7E" stroke-width="1.5"/>
+      <line x1="23" y1="70" x2="22" y2="84" stroke="#FFBE0B" stroke-width="1.5"/>
+      <line x1="30" y1="70" x2="30" y2="85" stroke="#00D2B4" stroke-width="1.5"/>
+      <line x1="37" y1="70" x2="38" y2="84" stroke="#FF5E7E" stroke-width="1.5"/>
+      <line x1="44" y1="70" x2="46" y2="82" stroke="#FFBE0B" stroke-width="1.5"/>
+    </g>
+
+    <!-- Text -->
+    <text x="75" y="145" font-family="'Baloo 2', sans-serif" font-size="15" font-weight="800" fill="#9B2C2C" text-anchor="middle">Em Tự Tay Dệt</text>
+    <text x="75" y="165" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">Tạo nên chiếc kẹp sách</text>
+    <text x="75" y="180" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#4A5568" text-anchor="middle">lụa mang dấu ấn riêng</text>
+  </g>
+</svg>

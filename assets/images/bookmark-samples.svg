@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF5E7E"/>
+      <stop offset="100%" stop-color="#FFAA00"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00D2B4"/>
+      <stop offset="100%" stop-color="#3A86FF"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#06D6A0"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9D4EDD"/>
+      <stop offset="100%" stop-color="#FF5E7E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card 1: Bé Bảo An (Lớp 3A) -->
+  <g transform="translate(30, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#FFE3E8" stroke-width="2"/>
+    <!-- Bookmark 1 -->
+    <g transform="translate(30, 25)">
+      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g1)" stroke="#B37D4E" stroke-width="2"/>
+      <polygon points="30,25 45,40 30,55 15,40" fill="#FFF"/>
+      <polygon points="30,70 45,85 30,100 15,85" fill="#FFF"/>
+      <!-- Loop -->
+      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#FF5E7E" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
+      <!-- Fringe -->
+      <line x1="12" y1="150" x2="8" y2="175" stroke="#FFAA00" stroke-width="2"/>
+      <line x1="24" y1="150" x2="22" y2="180" stroke="#FF5E7E" stroke-width="2"/>
+      <line x1="36" y1="150" x2="38" y2="180" stroke="#FF5E7E" stroke-width="2"/>
+      <line x1="48" y1="150" x2="52" y2="175" stroke="#FFAA00" stroke-width="2"/>
+    </g>
+    <!-- Label -->
+    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Bảo An</text>
+    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#E63946" text-anchor="middle">Lớp 3A • Tiểu học Đoàn Thị Điểm</text>
+    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Em tặng mẹ làm kẹp sách!"</text>
+  </g>
+
+  <!-- Card 2: Bé Minh Khôi (Lớp 4B) -->
+  <g transform="translate(170, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#D1F2EB" stroke-width="2"/>
+    <!-- Bookmark 2 -->
+    <g transform="translate(30, 25)">
+      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g2)" stroke="#B37D4E" stroke-width="2"/>
+      <!-- Stripes -->
+      <rect x="0" y="25" width="60" height="15" fill="#FFF" opacity="0.8"/>
+      <rect x="0" y="65" width="60" height="15" fill="#FFF" opacity="0.8"/>
+      <rect x="0" y="105" width="60" height="15" fill="#FFF" opacity="0.8"/>
+      <!-- Loop -->
+      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#00D2B4" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
+      <!-- Fringe -->
+      <line x1="12" y1="150" x2="8" y2="175" stroke="#00D2B4" stroke-width="2"/>
+      <line x1="24" y1="150" x2="22" y2="180" stroke="#3A86FF" stroke-width="2"/>
+      <line x1="36" y1="150" x2="38" y2="180" stroke="#3A86FF" stroke-width="2"/>
+      <line x1="48" y1="150" x2="52" y2="175" stroke="#00D2B4" stroke-width="2"/>
+    </g>
+    <!-- Label -->
+    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Minh Khôi</text>
+    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#00D2B4" text-anchor="middle">Lớp 4B • Vinschool Green Bay</text>
+    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Dệt vui như xếp hình Lego!"</text>
+  </g>
+
+  <!-- Card 3: Bé Trúc Linh (Lớp 2C) -->
+  <g transform="translate(310, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#FEF3C7" stroke-width="2"/>
+    <!-- Bookmark 3 -->
+    <g transform="translate(30, 25)">
+      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g3)" stroke="#B37D4E" stroke-width="2"/>
+      <polygon points="30,20 45,35 30,50 15,35" fill="#EF476F"/>
+      <polygon points="30,70 45,85 30,100 15,85" fill="#EF476F"/>
+      <!-- Loop -->
+      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#FFD166" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
+      <!-- Fringe -->
+      <line x1="12" y1="150" x2="8" y2="175" stroke="#FFD166" stroke-width="2"/>
+      <line x1="24" y1="150" x2="22" y2="180" stroke="#06D6A0" stroke-width="2"/>
+      <line x1="36" y1="150" x2="38" y2="180" stroke="#06D6A0" stroke-width="2"/>
+      <line x1="48" y1="150" x2="52" y2="175" stroke="#FFD166" stroke-width="2"/>
+    </g>
+    <!-- Label -->
+    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Trúc Linh</text>
+    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#F59E0B" text-anchor="middle">Lớp 2C • Archimedes Academy</text>
+    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Sợi tơ bóng mượt đẹp lắm ạ"</text>
+  </g>
+
+  <!-- Card 4: Bé Nam Phong (Lớp 5A) -->
+  <g transform="translate(450, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2"/>
+    <!-- Bookmark 4 -->
+    <g transform="translate(30, 25)">
+      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g4)" stroke="#B37D4E" stroke-width="2"/>
+      <circle cx="30" cy="35" r="12" fill="#FFD166"/>
+      <circle cx="30" cy="80" r="12" fill="#FFD166"/>
+      <circle cx="30" cy="125" r="12" fill="#FFD166"/>
+      <!-- Loop -->
+      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#9D4EDD" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
+      <!-- Fringe -->
+      <line x1="12" y1="150" x2="8" y2="175" stroke="#FF5E7E" stroke-width="2"/>
+      <line x1="24" y1="150" x2="22" y2="180" stroke="#9D4EDD" stroke-width="2"/>
+      <line x1="36" y1="150" x2="38" y2="180" stroke="#9D4EDD" stroke-width="2"/>
+      <line x1="48" y1="150" x2="52" y2="175" stroke="#FF5E7E" stroke-width="2"/>
+    </g>
+    <!-- Label -->
+    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Nam Phong</text>
+    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#8B5CF6" text-anchor="middle">Lớp 5A • Tiểu học Nguyễn Siêu</text>
+    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Em tự làm được trong 45 phút"</text>
+  </g>
+</svg>

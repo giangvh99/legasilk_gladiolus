@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="wormBodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9FFE1" />
+      <stop offset="40%" stop-color="#B8F2A0" />
+      <stop offset="100%" stop-color="#72D065" />
+    </linearGradient>
+    <linearGradient id="silkRibbonGrad" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FF007F" />
+      <stop offset="25%" stop-color="#FF5E00" />
+      <stop offset="50%" stop-color="#FFD700" />
+      <stop offset="75%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#7928CA" />
+    </linearGradient>
+    <linearGradient id="conicalHatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE5B4" />
+      <stop offset="60%" stop-color="#EDC988" />
+      <stop offset="100%" stop-color="#D4A373" />
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C68B59" />
+      <stop offset="100%" stop-color="#99582A" />
+    </linearGradient>
+    <filter id="shadowFilter" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#4A5568" flood-opacity="0.18" />
+    </filter>
+    <filter id="sparkleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Glow & Sparkles -->
+  <circle cx="250" cy="260" r="190" fill="#FFF5EB" opacity="0.8"/>
+  <circle cx="250" cy="260" r="150" fill="#FFE8D6" opacity="0.5"/>
+
+  <!-- Floating Mulberry Leaves -->
+  <g transform="translate(60, 110) rotate(-25)">
+    <path d="M 0 30 C 20 0, 50 10, 60 40 C 40 60, 10 50, 0 30 Z" fill="#52B788"/>
+    <path d="M 5 32 Q 35 30 55 38" stroke="#2D6A4F" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(410, 140) rotate(35) scale(0.8)">
+    <path d="M 0 30 C 20 0, 50 10, 60 40 C 40 60, 10 50, 0 30 Z" fill="#74C69D"/>
+    <path d="M 5 32 Q 35 30 55 38" stroke="#2D6A4F" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(70, 370) rotate(45) scale(0.7)">
+    <path d="M 0 30 C 20 0, 50 10, 60 40 C 40 60, 10 50, 0 30 Z" fill="#95D5B2"/>
+  </g>
+
+  <!-- Sparkle Stars -->
+  <g fill="#FFD166" filter="url(#sparkleGlow)">
+    <path d="M 90 200 L 93 210 L 103 213 L 93 216 L 90 226 L 87 216 L 77 213 L 87 210 Z" />
+    <path d="M 400 270 L 404 282 L 416 286 L 404 290 L 400 302 L 396 290 L 384 286 L 396 282 Z" />
+    <path d="M 360 80 L 363 90 L 373 93 L 363 96 L 360 106 L 357 96 L 347 93 L 357 90 Z" />
+    <circle cx="120" cy="140" r="4" fill="#FF99C8"/>
+    <circle cx="390" cy="360" r="5" fill="#A0C4FF"/>
+    <circle cx="110" cy="310" r="3.5" fill="#FDFFB6"/>
+  </g>
+
+  <!-- Floating Flowing Silk Ribbon (Background part) -->
+  <path d="M 110 380 C 130 450, 240 460, 310 430 C 400 390, 440 310, 410 240 C 390 190, 310 200, 340 270" 
+        fill="none" stroke="url(#silkRibbonGrad)" stroke-width="26" stroke-linecap="round" opacity="0.3" filter="url(#shadowFilter)"/>
+  <path d="M 110 380 C 130 450, 240 460, 310 430 C 400 390, 440 310, 410 240 C 390 190, 310 200, 340 270" 
+        fill="none" stroke="url(#silkRibbonGrad)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 110 380 C 130 450, 240 460, 310 430 C 400 390, 440 310, 410 240" 
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Character Ground Shadow -->
+  <ellipse cx="250" cy="425" rx="140" ry="24" fill="#E2D4C3" opacity="0.7"/>
+
+  <!-- Silkworm Body Segments (Cute stacked cartoon style) -->
+  <!-- Segment 4: Tail / Rear -->
+  <g filter="url(#shadowFilter)">
+    <circle cx="165" cy="370" r="45" fill="url(#wormBodyGrad)" stroke="#4E9940" stroke-width="3"/>
+    <ellipse cx="145" cy="390" rx="16" ry="10" fill="#5AA84B"/> <!-- Little rear foot -->
+  </g>
+
+  <!-- Segment 3: Mid-lower body -->
+  <g filter="url(#shadowFilter)">
+    <circle cx="215" cy="355" r="52" fill="url(#wormBodyGrad)" stroke="#4E9940" stroke-width="3"/>
+    <ellipse cx="205" cy="396" rx="16" ry="10" fill="#5AA84B"/> <!-- Foot -->
+  </g>
+
+  <!-- Segment 2: Mid-upper body / Chest -->
+  <g filter="url(#shadowFilter)">
+    <circle cx="270" cy="325" r="58" fill="url(#wormBodyGrad)" stroke="#4E9940" stroke-width="3.5"/>
+    <ellipse cx="275" cy="380" rx="16" ry="10" fill="#5AA84B"/> <!-- Foot -->
+  </g>
+
+  <!-- Cute Silk Golden Cocoon Backpack / Accessory -->
+  <g transform="translate(140, 290) rotate(-15)">
+    <ellipse cx="30" cy="40" rx="28" ry="38" fill="#FFE57F" stroke="#E6A100" stroke-width="3"/>
+    <!-- Thread winding texture -->
+    <path d="M 12 25 Q 35 15 48 30" stroke="#FFCA28" stroke-width="2" fill="none"/>
+    <path d="M 10 40 Q 30 50 50 38" stroke="#FFCA28" stroke-width="2" fill="none"/>
+    <path d="M 15 55 Q 32 45 45 58" stroke="#FFCA28" stroke-width="2" fill="none"/>
+    <circle cx="22" cy="22" r="4" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+
+  <!-- Segment 1: Silkworm Head (Adorable chubby cheeks) -->
+  <g filter="url(#shadowFilter)">
+    <circle cx="280" cy="220" r="72" fill="url(#wormBodyGrad)" stroke="#4E9940" stroke-width="3.5"/>
+  </g>
+
+  <!-- Antennae with fluffy tips -->
+  <path d="M 250 160 Q 230 115 210 125" stroke="#4E9940" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <circle cx="208" cy="126" r="9" fill="#FF6584"/>
+  <path d="M 310 160 Q 330 115 350 125" stroke="#4E9940" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <circle cx="352" cy="126" r="9" fill="#FF6584"/>
+
+  <!-- Cute Vietnamese Conical Hat (Nón lá nhỏ xíu) tilted playfully -->
+  <g transform="translate(230, 95) rotate(12)">
+    <!-- Hat cone -->
+    <polygon points="50,0 0,60 100,60" fill="url(#conicalHatGrad)" stroke="#B37D4E" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Bamboo rings on hat -->
+    <ellipse cx="50" cy="60" rx="50" ry="12" fill="#E6BA80" stroke="#B37D4E" stroke-width="2"/>
+    <path d="M 15 42 Q 50 50 85 42" stroke="#C28B57" stroke-width="1.8" fill="none"/>
+    <path d="M 28 26 Q 50 32 72 26" stroke="#C28B57" stroke-width="1.8" fill="none"/>
+    <!-- Red ribbon strap -->
+    <path d="M 10 60 Q 40 90 48 85 Q 55 90 90 60" fill="none" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>
+    <!-- Little cherry blossom on hat -->
+    <circle cx="50" cy="25" r="5" fill="#FF5E7E"/>
+    <circle cx="50" cy="25" r="2" fill="#FFF"/>
+  </g>
+
+  <!-- Cute Facial Features -->
+  <!-- Left Eye -->
+  <g transform="translate(250, 205)">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#1D2D44"/>
+    <circle cx="-4" cy="-5" r="6" fill="#FFFFFF"/>
+    <circle cx="4" cy="6" r="3" fill="#FFFFFF"/>
+    <circle cx="-5" cy="8" r="1.5" fill="#FFFFFF"/>
+  </g>
+  <!-- Right Eye -->
+  <g transform="translate(305, 205)">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#1D2D44"/>
+    <circle cx="-4" cy="-5" r="6" fill="#FFFFFF"/>
+    <circle cx="4" cy="6" r="3" fill="#FFFFFF"/>
+    <circle cx="-5" cy="8" r="1.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Cute Blushing Cheeks -->
+  <ellipse cx="232" cy="230" rx="15" ry="9" fill="#FF6584" opacity="0.65"/>
+  <ellipse cx="328" cy="230" rx="15" ry="9" fill="#FF6584" opacity="0.65"/>
+  <!-- Highlights on cheeks -->
+  <circle cx="230" cy="227" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="326" cy="227" r="3" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Smiling Mouth -->
+  <path d="M 268 228 Q 280 248 292 228" stroke="#1D2D44" stroke-width="3.5" fill="#E63946" stroke-linecap="round"/>
+  <path d="M 272 232 Q 280 240 288 232" fill="#FF99C8"/>
+
+  <!-- Cute Hand / Paws -->
+  <!-- Left Hand holding Weaving Shuttle -->
+  <g transform="translate(200, 260) rotate(-20)">
+    <!-- Arm -->
+    <ellipse cx="20" cy="15" rx="18" ry="12" fill="#8CE07C" stroke="#4E9940" stroke-width="2.5"/>
+    
+    <!-- Wooden Shuttle -->
+    <g transform="translate(-15, -20) rotate(-15)">
+      <path d="M 0 35 C -5 20, 15 5, 45 0 C 75 5, 95 20, 90 35 C 75 45, 15 45, 0 35 Z" 
+            fill="url(#woodGrad)" stroke="#6F3900" stroke-width="3"/>
+      <!-- Hollow center -->
+      <rect x="25" y="15" width="40" height="12" rx="6" fill="#FFF3E0" stroke="#6F3900" stroke-width="2"/>
+      <!-- Thread Bobbin inside shuttle -->
+      <rect x="30" y="17" width="30" height="8" rx="4" fill="#FF007F"/>
+      <line x1="35" y1="17" x2="35" y2="25" stroke="#FF85C0" stroke-width="1.5"/>
+      <line x1="42" y1="17" x2="42" y2="25" stroke="#FF85C0" stroke-width="1.5"/>
+      <line x1="50" y1="17" x2="50" y2="25" stroke="#FF85C0" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Right Hand Waving Cheerfully -->
+  <g transform="translate(345, 260)">
+    <ellipse cx="12" cy="5" rx="16" ry="12" fill="#8CE07C" stroke="#4E9940" stroke-width="2.5" transform="rotate(-30)"/>
+    <!-- 3 cute little cartoon fingers -->
+    <circle cx="20" cy="-2" r="6" fill="#8CE07C" stroke="#4E9940" stroke-width="2"/>
+    <circle cx="24" cy="6" r="6" fill="#8CE07C" stroke="#4E9940" stroke-width="2"/>
+  </g>
+
+  <!-- Flowing Foreground Silk Ribbon (Coming out of shuttle) -->
+  <path d="M 215 250 C 260 210, 360 260, 410 320 C 450 370, 420 440, 340 450 C 260 460, 150 420, 120 360 C 90 300, 150 200, 230 180" 
+        fill="none" stroke="url(#silkRibbonGrad)" stroke-width="16" stroke-linecap="round" filter="url(#shadowFilter)"/>
+  <path d="M 215 250 C 260 210, 360 260, 410 320 C 450 370, 420 440, 340 450 C 260 460, 150 420, 120 360 C 90 300, 150 200, 230 180" 
+        fill="none" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Cute speech bubble or tag "Em dệt lụa!" -->
+  <g transform="translate(320, 130) rotate(8)" filter="url(#shadowFilter)">
+    <rect x="0" y="0" width="135" height="42" rx="21" fill="#FFFFFF" stroke="#FF5E7E" stroke-width="3"/>
+    <polygon points="15,40 25,40 10,54" fill="#FFFFFF" stroke="#FF5E7E" stroke-width="3"/>
+    <polygon points="17,38 27,38 12,50" fill="#FFFFFF"/>
+    <text x="67" y="27" font-family="'Baloo 2', 'Quicksand', sans-serif" font-size="16" font-weight="800" fill="#E63946" text-anchor="middle">
+      Em dệt lụa nè! ✨
+    </text>
+  </g>
+</svg>

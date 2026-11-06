@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F5" />
+      <stop offset="100%" stop-color="#FFE3E8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="240" rx="16" fill="url(#bgGrad1)"/>
+  
+  <!-- Grid / subtle dots -->
+  <g fill="#FF85A2" opacity="0.15">
+    <circle cx="30" cy="30" r="3"/><circle cx="70" cy="30" r="3"/><circle cx="110" cy="30" r="3"/>
+    <circle cx="30" cy="70" r="3"/><circle cx="70" cy="70" r="3"/><circle cx="110" cy="70" r="3"/>
+  </g>
+
+  <!-- Illustration: Loom setup with warp threads -->
+  <g transform="translate(140, 30)" filter="url(#shadow)">
+    <!-- Loom frame -->
+    <rect x="0" y="0" width="120" height="150" rx="10" fill="#FDE8CD" stroke="#A46E3F" stroke-width="4"/>
+    <rect x="15" y="18" width="90" height="114" rx="6" fill="#FFFDF9" stroke="#C28B57" stroke-width="2.5"/>
+    <!-- Warp threads strung neatly -->
+    <g stroke="#E63946" stroke-width="2">
+      <line x1="26" y1="18" x2="26" y2="132"/>
+      <line x1="38" y1="18" x2="38" y2="132"/>
+      <line x1="50" y1="18" x2="50" y2="132"/>
+      <line x1="62" y1="18" x2="62" y2="132"/>
+      <line x1="74" y1="18" x2="74" y2="132"/>
+      <line x1="86" y1="18" x2="86" y2="132"/>
+      <line x1="94" y1="18" x2="94" y2="132"/>
+    </g>
+    <!-- Little hand gesturing -->
+    <ellipse cx="105" cy="80" rx="12" ry="8" fill="#FFCCD5" stroke="#E63946" stroke-width="1.5" transform="rotate(-30 105 80)"/>
+  </g>
+
+  <!-- Mascot Peeking -->
+  <g transform="translate(30, 80)">
+    <circle cx="45" cy="50" r="32" fill="#B8F2A0" stroke="#4E9940" stroke-width="2.5"/>
+    <!-- Eyes -->
+    <circle cx="37" cy="45" r="4.5" fill="#1D2D44"/><circle cx="35" cy="43" r="1.5" fill="#FFF"/>
+    <circle cx="53" cy="45" r="4.5" fill="#1D2D44"/><circle cx="51" cy="43" r="1.5" fill="#FFF"/>
+    <!-- Cheeks & mouth -->
+    <ellipse cx="29" cy="55" rx="5" ry="3" fill="#FF6584" opacity="0.6"/>
+    <ellipse cx="61" cy="55" rx="5" ry="3" fill="#FF6584" opacity="0.6"/>
+    <path d="M 41 53 Q 45 60 49 53" stroke="#1D2D44" stroke-width="2" fill="none"/>
+    <!-- Little hat -->
+    <polygon points="45,10 25,28 65,28" fill="#FFE5B4" stroke="#B37D4E" stroke-width="1.5"/>
+  </g>
+
+  <!-- Big Play Button Overlay -->
+  <g transform="translate(200, 105)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="30" fill="#FF3366"/>
+    <polygon points="-8,-14 16,0 -8,14" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Bottom Lesson Title Bar -->
+  <rect x="0" y="195" width="400" height="45" fill="#2B2D42" opacity="0.9"/>
+  <text x="20" y="215" font-family="'Baloo 2', sans-serif" font-size="14" font-weight="800" fill="#FFD166">
+    BÀI 1: KHỞI ĐẦU &amp; MẮC SỢI DỌC
+  </text>
+  <text x="20" y="230" font-family="'Quicksand', sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0">
+    Thời lượng: 04:30 • Dành cho bé lớp 1-5
+  </text>
+
+  <!-- Duration Badge -->
+  <rect x="330" y="206" width="55" height="22" rx="11" fill="#FF3366"/>
+  <text x="357" y="221" font-family="'Baloo 2', sans-serif" font-size="11" font-weight="800" fill="#FFF" text-anchor="middle">
+    04:30
+  </text>
+</svg>

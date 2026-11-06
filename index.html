@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legasilk - Làng Nghề Trong Tầm Tay Em | Bộ Kit Dệt Kẹp Sách Lụa Vạn Phúc Cho Học Sinh</title>
+  <meta name="description" content="Legasilk - Bộ kit dệt thủ công mini mang di sản lụa hơn 1.000 năm tuổi Vạn Phúc đến tận bàn học của các bạn học sinh tiểu học. Video hướng dẫn từng bước trực quan, an toàn và bổ ích.">
+  <meta name="keywords" content="Legasilk, lụa Vạn Phúc, dệt lụa thủ công, kit dệt kẹp sách, giáo dục di sản, hoạt động trải nghiệm, Star Award 2026">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Legasilk - Làng Nghề Trong Tầm Tay Em">
+  <meta property="og:description" content="Khám phá bộ kit dệt kẹp sách lụa Vạn Phúc với chuỗi video hướng dẫn từng bước sinh động dành cho học sinh tiểu học!">
+  <meta property="og:image" content="assets/images/kit-bundle.svg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================
+       1. HEADER & NAVBAR
+  ========================================== -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="#hero" class="nav-brand" aria-label="Legasilk Homepage">
+        <img src="assets/images/logo.svg" alt="Legasilk - Làng Nghề Trong Tầm Tay Em Logo">
+      </a>
+
+      <!-- Desktop & Mobile Navigation Menu -->
+      <nav class="nav-menu" id="mainNavMenu">
+        <ul class="nav-links">
+          <li><a href="#about" data-i18n="nav.about">Về Legasilk</a></li>
+          <li><a href="#tutorials" class="active" data-i18n="nav.tutorials">Video Hướng Dẫn</a></li>
+          <li><a href="#inspiration" data-i18n="nav.inspiration">Cảm Hứng Vạn Phúc</a></li>
+          <li><a href="#showcase" data-i18n="nav.showcase">Tác Phẩm Của Bé</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Liên Hệ &amp; Đặt Kit</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Language Toggle VI / EN -->
+          <button type="button" class="lang-btn" id="langToggleBtn" aria-label="Đổi ngôn ngữ / Change language">
+            <span id="langLabel" data-i18n="lang.toggle">English 🇬🇧</span>
+          </button>
+          
+          <a href="#contact" class="btn btn-primary" data-i18n="nav.order_btn">Đặt Kit Ngay ✨</a>
+        </div>
+      </nav>
+
+      <!-- Hamburger button for mobile -->
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Mở menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================
+       2. HERO SECTION
+  ========================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-text-content">
+        <div class="hero-badge-pill" data-i18n="hero.badge">
+          Làng Nghề Trong Tầm Tay Em 🌸
+        </div>
+        
+        <h1 class="hero-title">
+          <span data-i18n="hero.title_pre">Tự Tay Dệt Chiếc</span>
+          <span class="hero-highlight" data-i18n="hero.title_highlight">Kẹp Sách Lụa Vạn Phúc</span>
+          <span data-i18n="hero.title_post">Của Riêng Em!</span>
+        </h1>
+
+        <p class="hero-description" data-i18n="hero.desc">
+          Bộ kit dệt thủ công mini mang trọn vẹn tinh hoa làng nghề lụa hơn 1.000 năm tuổi Vạn Phúc đến tận bàn học của các bạn nhỏ. Trải nghiệm học tập xúc giác, rời xa màn hình số và tự tay tạo nên tác phẩm lưu niệm độc đáo!
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#tutorials" class="btn btn-primary" data-i18n="hero.btn_watch">
+            Xem Video Dệt Mẫu ▶
+          </a>
+          <a href="#about" class="btn btn-secondary" data-i18n="hero.btn_explore">
+            Khám Phá Hộp Kit 📦
+          </a>
+        </div>
+
+        <div class="hero-pills">
+          <div class="feature-pill" data-i18n="hero.pill_screen_free">100% Rời xa màn hình 🌿</div>
+          <div class="feature-pill" data-i18n="hero.pill_silk">Lụa thật Vạn Phúc 🧵</div>
+          <div class="feature-pill" data-i18n="hero.pill_curriculum">Chuẩn GDPT 2018 🎒</div>
+        </div>
+      </div>
+
+      <!-- Hero Mascot & Floating Elements -->
+      <div class="hero-mascot-wrapper">
+        <img src="assets/images/hero-mascot.svg" alt="Bé Tằm Tí Hon - Linh vật Legasilk" class="hero-mascot-img">
+        
+        <div class="hero-floating-tag tag-top-left">
+          ⭐ Dành riêng học sinh 6-11 tuổi
+        </div>
+        <div class="hero-floating-tag tag-bottom-right">
+          ✨ Dệt xong chỉ trong 45 phút!
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       3. SECTION: ABOUT LEGASILK
+  ========================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="about.tag">GIỚI THIỆU DỰ ÁN</span>
+        <h2 class="section-title" data-i18n="about.title">Legasilk - Khi Đôi Bàn Tay Nhí Kết Nối Cùng Di Sản Ngàn Năm</h2>
+        <p class="section-lead" data-i18n="about.lead">
+          Legasilk ra đời từ trăn trở trước nguy cơ mai một của các làng nghề truyền thống và khoảng trống trải nghiệm văn hóa trong trường học. Chúng tôi biến nghề dệt lụa Vạn Phúc thành một câu chuyện sống động mà bất kỳ bạn nhỏ tiểu học nào cũng có thể chạm vào, tự dệt và tự hào kể lại.
+        </p>
+      </div>
+
+      <!-- 3 Problems We Solve -->
+      <div class="problems-grid">
+        <div class="problem-card">
+          <div class="problem-icon-wrapper icon-pink">🏺</div>
+          <h3 data-i18n="about.prob1_title">1. Khoảng cách kế thừa di sản</h3>
+          <p data-i18n="about.prob1_desc">
+            Hơn 5.400 làng nghề Việt Nam đang đối mặt với bài toán thiếu người kế cận. Legasilk gieo mầm tình yêu văn hóa từ lứa tuổi 6–11.
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="problem-icon-wrapper icon-teal">🏫</div>
+          <h3 data-i18n="about.prob2_title">2. Thiếu trải nghiệm xúc giác</h3>
+          <p data-i18n="about.prob2_desc">
+            Chuyến đi thực địa tốn kém và khó tổ chức. Legasilk mang trọn vẹn xưởng dệt thu nhỏ vào tiết học 45–60 phút ngay tại lớp.
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="problem-icon-wrapper icon-gold">📱</div>
+          <h3 data-i18n="about.prob3_title">3. Trẻ em bão hòa màn hình</h3>
+          <p data-i18n="about.prob3_desc">
+            Trẻ dành trung bình gần 3 giờ/ngày trước thiết bị điện tử. Legasilk mang lại giờ thủ công rực rỡ, rèn luyện tính kiên nhẫn và vận động tinh.
+          </p>
+        </div>
+      </div>
+
+      <!-- Inside The Kit Showcase Box -->
+      <div class="kit-details-box">
+        <div class="kit-bundle-img-wrapper">
+          <img src="assets/images/kit-bundle.svg" alt="Bộ Kit Dệt Kẹp Sách Legasilk Chi Tiết" class="kit-bundle-img">
+        </div>
+
+        <div class="kit-bundle-info">
+          <h3 style="font-size: 1.8rem; margin-bottom: 20px; color: var(--text-dark);" data-i18n="kit.heading">
+            Bên Trong Một Hộp Kit Legasilk Có Gì?
+          </h3>
+
+          <ul class="kit-items-list">
+            <li class="kit-item">
+              <div class="kit-item-icon">🪵</div>
+              <div class="kit-item-info">
+                <h4 data-i18n="kit.item1_title">Khung dệt mini bằng gỗ an toàn</h4>
+                <p data-i18n="kit.item1_desc">Gỗ tự nhiên gia công mịn màng, bo tròn các góc cạnh, vừa vặn bàn tay nhỏ của học sinh lớp 1–5.</p>
+              </div>
+            </li>
+
+            <li class="kit-item">
+              <div class="kit-item-icon">🪡</div>
+              <div class="kit-item-info">
+                <h4 data-i18n="kit.item2_title">Thoi dệt &amp; Lược dệt gỗ</h4>
+                <p data-i18n="kit.item2_desc">Thiết kế xinh xắn giúp bé dễ dàng luồn sợi tơ và gạt chặt từng hàng dệt thẳng đều.</p>
+              </div>
+            </li>
+
+            <li class="kit-item">
+              <div class="kit-item-icon">🧵</div>
+              <div class="kit-item-info">
+                <h4 data-i18n="kit.item3_title">Tơ lụa ngũ sắc Vạn Phúc</h4>
+                <p data-i18n="kit.item3_desc">Sợi tơ lụa mềm mượt, óng ánh sắc màu tuyển chọn từ các xưởng dệt uy tín tại làng lụa Hà Đông.</p>
+              </div>
+            </li>
+
+            <li class="kit-item">
+              <div class="kit-item-icon">🎀</div>
+              <div class="kit-item-info">
+                <h4 data-i18n="kit.item4_title">Phụ kiện trang trí kẹp sách</h4>
+                <p data-i18n="kit.item4_desc">Hạt gỗ mộc, chuông nhỏ, dây treo tua rua để hoàn thiện chiếc bookmark độc nhất vô nhị.</p>
+              </div>
+            </li>
+
+            <li class="kit-item">
+              <div class="kit-item-icon">📲</div>
+              <div class="kit-item-info">
+                <h4 data-i18n="kit.item5_title">Thẻ thông minh quét mã QR</h4>
+                <p data-i18n="kit.item5_desc">Dẫn trực tiếp đến chuỗi video hoạt hình hướng dẫn sinh động và câu chuyện làng nghề lý thú.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       4. SECTION: TUTORIAL VIDEOS (CORE FOCUS)
+  ========================================== -->
+  <section class="tutorials-section" id="tutorials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" style="background:#E0F2F1; color:#00897B; border-color:#00D2B4;" data-i18n="tutorials.tag">TRẠM HỌC TẬP TƯƠNG TÁC</span>
+        <h2 class="section-title" data-i18n="tutorials.title">Chuỗi Video Hướng Dẫn Từng Bước Cho Bé</h2>
+        <p class="section-lead" data-i18n="tutorials.lead">
+          Đừng lo nếu bé chưa từng dệt bao giờ! Bạn Tằm Tí Hon sẽ hướng dẫn từng thao tác thật chậm rãi, vui nhộn qua 4 video ngắn chỉ từ 4 đến 6 phút.
+        </p>
+      </div>
+
+      <!-- Main Featured Interactive Video Player Container -->
+      <div class="video-player-container">
+        <div class="video-screen-layout">
+          <!-- Left: The Interactive Animated Video Screen -->
+          <div class="video-canvas-wrapper">
+            <canvas id="videoSimulatorCanvas" width="640" height="400" aria-label="Mô phỏng thao tác dệt kẹp sách"></canvas>
+            
+            <!-- Click-to-play overlay with thumbnail -->
+            <div class="video-thumb-overlay" id="videoThumbOverlay" style="background-image: url('assets/images/video-thumb-1.svg');">
+              <div class="overlay-play-pill">
+                <span>▶</span> <span data-i18n="tutorials.play">Phát video bài giảng</span>
+              </div>
+            </div>
+
+            <!-- Custom Video Controls Bar -->
+            <div class="video-custom-controls">
+              <button class="ctrl-btn" id="videoPlayBtn" aria-label="Phát hoặc tạm dừng video">
+                <span id="videoPlayIcon">▶</span>
+              </button>
+
+              <div class="progress-track">
+                <div class="progress-bar" id="videoProgressBar"></div>
+              </div>
+
+              <span class="timecode-label" id="videoTimecode">00:00 / 04:30</span>
+
+              <button class="ctrl-speed-btn" id="videoSpeedBtn" title="Điều chỉnh tốc độ">
+                1.0x
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Active Lesson Meta, Step Checklist & Mascot Tip -->
+          <div class="video-meta-box">
+            <span class="lesson-badge" id="currentLessonNum">BÀI 1</span>
+            <h3 id="currentLessonTitle">Khởi Đầu Kỳ Thú &amp; Mắc Sợi Dọc</h3>
+            <p id="currentLessonDesc">
+              Mở hộp Legasilk, làm quen các dụng cụ dệt gỗ và học cách mắc 9 sợi dọc căng đều tăm tắp trên khung.
+            </p>
+
+            <!-- Checklist steps -->
+            <ul class="lesson-steps-list" id="currentLessonStepsList">
+              <!-- Dynamically populated by JS -->
+            </ul>
+
+            <!-- Mascot Secret Tip Bubble -->
+            <div class="mascot-speech-bubble">
+              <img src="assets/images/mascot-tip.svg" alt="Bạn Tằm Tí Hon" class="mascot-bubble-avatar">
+              <div class="mascot-bubble-content">
+                <h5 data-i18n="tutorials.tip_box_title">Mẹo Bí Mật Của Bạn Tằm:</h5>
+                <p id="currentLessonTip">
+                  Hãy thắt nút khởi đầu vừa tay, không quá chặt để khung gỗ không bị cong, bé nhé!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Lessons Cards Grid -->
+      <div class="lessons-grid">
+        <!-- Lesson 1 Card -->
+        <div class="lesson-card active" data-lesson-idx="0">
+          <div class="lesson-card-thumb-wrap">
+            <img src="assets/images/video-thumb-1.svg" alt="Bài 1: Khởi đầu kỳ thú & Mắc sợi dọc">
+          </div>
+          <div class="lesson-card-body">
+            <span class="card-lesson-tag" data-i18n="lesson1.num">BÀI 1</span>
+            <h4 data-i18n="lesson1.title">Khởi Đầu Kỳ Thú &amp; Mắc Sợi Dọc</h4>
+            <p data-i18n="lesson1.desc">Mở hộp Legasilk, làm quen các dụng cụ dệt gỗ và học cách mắc 9 sợi dọc căng đều tăm tắp.</p>
+            <div class="card-duration-badge">⏱ <span data-i18n="lesson1.duration">04:30 phút</span></div>
+          </div>
+        </div>
+
+        <!-- Lesson 2 Card -->
+        <div class="lesson-card" data-lesson-idx="1">
+          <div class="lesson-card-thumb-wrap">
+            <img src="assets/images/video-thumb-2.svg" alt="Bài 2: Luồn thoi thần kỳ">
+          </div>
+          <div class="lesson-card-body">
+            <span class="card-lesson-tag" style="color: var(--silk-jade);" data-i18n="lesson2.num">BÀI 2</span>
+            <h4 data-i18n="lesson2.title">Luồn Thoi Thần Kỳ (Dệt Trơn)</h4>
+            <p data-i18n="lesson2.desc">Học thần chú: 'Đè một sợi - Nâng một sợi'. Dùng lược dệt gạt nhẹ để các hàng tơ khít chặt.</p>
+            <div class="card-duration-badge">⏱ <span data-i18n="lesson2.duration">06:15 phút</span></div>
+          </div>
+        </div>
+
+        <!-- Lesson 3 Card -->
+        <div class="lesson-card" data-lesson-idx="2">
+          <div class="lesson-card-thumb-wrap">
+            <img src="assets/images/video-thumb-3.svg" alt="Bài 3: Vũ điệu sắc màu & Hoa văn">
+          </div>
+          <div class="lesson-card-body">
+            <span class="card-lesson-tag" style="color: #D48B00;" data-i18n="lesson3.num">BÀI 3</span>
+            <h4 data-i18n="lesson3.title">Vũ Điệu Sắc Màu &amp; Hoa Văn</h4>
+            <p data-i18n="lesson3.desc">Bí quyết nối sợi lụa đổi màu không lộ mối và dệt hoa văn quả trám truyền thống của làng Vạn Phúc.</p>
+            <div class="card-duration-badge">⏱ <span data-i18n="lesson3.duration">05:45 phút</span></div>
+          </div>
+        </div>
+
+        <!-- Lesson 4 Card -->
+        <div class="lesson-card" data-lesson-idx="3">
+          <div class="lesson-card-thumb-wrap">
+            <img src="assets/images/video-thumb-4.svg" alt="Bài 4: Thắt nút vương miện & Hoàn thiện bookmark">
+          </div>
+          <div class="lesson-card-body">
+            <span class="card-lesson-tag" style="color: var(--silk-purple);" data-i18n="lesson4.num">BÀI 4</span>
+            <h4 data-i18n="lesson4.title">Thắt Nút Vương Miện &amp; Kẹp Sách</h4>
+            <p data-i18n="lesson4.desc">Tháo bookmark ra khỏi khung gỗ, thắt tua rua lụa mềm mịn và xỏ hạt gỗ may mắn hoàn thành tác phẩm.</p>
+            <div class="card-duration-badge">⏱ <span data-i18n="lesson4.duration">04:00 phút</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action buttons & Teacher notes -->
+      <div class="tutorials-footer-actions">
+        <button type="button" class="btn btn-gold" id="openQuickGuideBtn" data-i18n="tutorials.btn_download_guide">
+          Tải Cẩm Nang Hướng Dẫn (Bản In PDF) 📄
+        </button>
+
+        <!-- Teacher & Parent Guidance Accordion -->
+        <div class="teacher-notes-accordion">
+          <h4 data-i18n="tutorials.teacher_parent_note_title">
+            🍎 Dành Cho Thầy Cô &amp; Phụ Huynh Khi Hướng Dẫn Bé:
+          </h4>
+          <p data-i18n="tutorials.teacher_parent_note_content">
+            Với các bé học sinh lớp 1–2, người lớn có thể hỗ trợ bé ở bước 1 (mắc sợi dọc trên khung). Sau khi khung đã có sợi dọc, các bé hoàn toàn tự tin luồn thoi dệt theo quy tắc 'lên 1 - xuống 1'. Hoạt động này được thiết kế hoàn hảo cho tiết Hoạt động trải nghiệm (45 phút) hoặc buổi sinh hoạt gia đình cuối tuần.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       5. SECTION: OUR INSPIRATION - VAN PHUC SILK
+  ========================================== -->
+  <section class="inspiration-section" id="inspiration">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" style="background:#EDE9FE; color:#7C3AED; border-color:#8B5CF6;" data-i18n="inspiration.tag">CẢM HỨNG VĂN HÓA</span>
+        <h2 class="section-title" data-i18n="inspiration.title">Làng Lụa Vạn Phúc - Hơn 1.000 Năm Dệt Gấm Thêu Hoa</h2>
+        <p class="section-lead" data-i18n="inspiration.lead">
+          Nằm êm đềm bên dòng sông Nhuệ thuộc quận Hà Đông (Hà Nội), Vạn Phúc là cái nôi dệt lụa cổ nhất Việt Nam. Mỗi mét lụa nơi đây đều thấm đượm bàn tay tài hoa của nghệ nhân và chiều sâu lịch sử dân tộc.
+        </p>
+      </div>
+
+      <!-- Village History & Visual Banner -->
+      <div class="inspiration-banner-card">
+        <div class="inspiration-grid">
+          <div class="inspiration-content">
+            <h3 style="font-size: 2rem; color: var(--text-dark); margin-bottom: 14px;">
+              Di Sản Sống Cần Đôi Tay Kế Thừa
+            </h3>
+            <p style="color: var(--text-muted); font-weight: 600; line-height: 1.6;">
+              Vạn Phúc hiện có khoảng 70 chủng loại lụa, sa, gấm tinh tế. Tuy nhiên, trước làn sóng vải công nghiệp giá rẻ, nỗi lo thiếu người kế tục đang ngày một hiện hữu. Legasilk tin rằng, tình yêu di sản phải được bắt đầu từ những trải nghiệm ấu thơ rực rỡ nhất!
+            </p>
+
+            <div class="history-highlights">
+              <div class="history-card">
+                <div class="history-icon">🏛️</div>
+                <div class="history-text">
+                  <h4 data-i18n="inspiration.card1_title">Chiếc Nôi Lụa Nghìn Năm</h4>
+                  <p data-i18n="inspiration.card1_desc">Được công nhận là Di sản Văn hóa Phi vật thể Quốc gia. Nổi tiếng với lụa Vân - loại lụa mỏng nhẹ, hoa văn chìm nổi tinh xảo từng phục vụ cung đình.</p>
+                </div>
+              </div>
+
+              <div class="history-card">
+                <div class="history-icon">📜</div>
+                <div class="history-text">
+                  <h4 data-i18n="inspiration.card2_title">Dấu Ấn Lịch Sử 1946</h4>
+                  <p data-i18n="inspiration.card2_desc">Chính tại làng Vạn Phúc vào tháng 12 năm 1946, Chủ tịch Hồ Chí Minh đã viết bản 'Lời kêu gọi Toàn quốc kháng chiến' lịch sử.</p>
+                </div>
+              </div>
+
+              <div class="history-card">
+                <div class="history-icon">🌱</div>
+                <div class="history-text">
+                  <h4 data-i18n="inspiration.card3_title">Nguy Cơ &amp; Khát Vọng Kế Thừa</h4>
+                  <p data-i18n="inspiration.card3_desc">Trước làn sóng sợi nhân tạo, làng nghề đang rất cần sự tiếp nối của người trẻ. Legasilk chính là cây cầu nhỏ nối các em học sinh với cội nguồn văn hóa.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Village Illustration -->
+          <div class="inspiration-img-wrap">
+            <img src="assets/images/van-phuc-village.svg" alt="Làng Lụa Vạn Phúc - Hà Đông">
+          </div>
+        </div>
+      </div>
+
+      <!-- Silk Lifecycle Infographic for Children -->
+      <div class="lifecycle-wrapper">
+        <h3 data-i18n="inspiration.lifecycle_title">Hành Trình Kỳ Diệu Của Sợi Tơ Tằm Vạn Phúc</h3>
+        <img src="assets/images/silk-lifecycle.svg" alt="Vòng đời và quy trình làm lụa tơ tằm Vạn Phúc" class="lifecycle-img">
+      </div>
+
+      <!-- Artisan Quote -->
+      <div class="artisan-quote-card">
+        <div class="artisan-quote-icon">👵</div>
+        <div class="artisan-quote-body">
+          <blockquote data-i18n="inspiration.artisan_quote">
+            “Thấy các cháu nhỏ say mê luồn từng sợi tơ, ngắm chiếc kẹp sách do chính tay mình dệt nên, những người thợ già như chúng tôi xúc động vô cùng. Làng nghề có tương lai hay không, chính là nhờ vào tình yêu của các cháu hôm nay.”
+          </blockquote>
+          <cite data-i18n="inspiration.artisan_author">— Nghệ nhân Đỗ Thị Hiền, Làng lụa Vạn Phúc, Hà Đông</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       6. SECTION: STUDENT SHOWCASE
+  ========================================== -->
+  <section class="showcase-section" id="showcase">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="showcase.tag">GÓC TRIỂN LÃM</span>
+        <h2 class="section-title" data-i18n="showcase.title">Tác Phẩm &amp; Niềm Vui Của Các Thợ Dệt Nhí</h2>
+        <p class="section-lead" data-i18n="showcase.lead">
+          Hàng trăm chiếc kẹp sách rực rỡ sắc màu đã được các bạn nhỏ tự tay dệt nên. Cùng lắng nghe cảm nhận của các bạn học sinh và thầy cô nhé!
+        </p>
+      </div>
+
+      <div class="showcase-gallery-box">
+        <img src="assets/images/bookmark-samples.svg" alt="Các tác phẩm kẹp sách lụa do học sinh tự dệt" class="showcase-gallery-img">
+      </div>
+
+      <!-- Testimonials from Teachers & Students -->
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars-rating">★★★★★</div>
+          <p class="testimonial-text" data-i18n="showcase.testimonial1_text">
+            “Tiết Hoạt động trải nghiệm với bộ kit Legasilk khiến cả lớp 3 hào hứng khác hẳn. Các con chăm chú luồn thoi, không bạn nào nghịch ngợm hay đòi xem điện thoại suốt 45 phút!”
+          </p>
+          <div class="testimonial-author" data-i18n="showcase.testimonial1_author">
+            Cô Mai Lan — Giáo viên Trường Tiểu học Đoàn Thị Điểm, Hà Nội
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars-rating">★★★★★</div>
+          <p class="testimonial-text" data-i18n="showcase.testimonial2_text">
+            “Con thích nhất là lúc dệt xong kẹp sách, mẹ khen đẹp quá nên con tặng mẹ để kẹp vào cuốn sách nấu ăn. Con cảm thấy mình như nghệ nhân thực thụ!”
+          </p>
+          <div class="testimonial-author" data-i18n="showcase.testimonial2_author">
+            Bé Minh Châu — Học sinh Lớp 4, Hà Nội
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       7. SECTION: CONTACT & ORDER
+  ========================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" style="background:#FFF3CD; color:#B45309; border-color:#FFD166;" data-i18n="contact.tag">KẾT NỐI &amp; HỢP TÁC</span>
+        <h2 class="section-title" data-i18n="contact.title">Mang Legasilk Đến Với Ngôi Trường &amp; Gia Đình Bạn</h2>
+        <p class="section-lead" data-i18n="contact.lead">
+          Chúng tôi cung cấp bộ kit lẻ cho các bạn nhỏ tại nhà và các gói combo học tập số lượng lớn với chiết khấu ưu đãi 20% - 30% cho các trường tiểu học, trung tâm trải nghiệm STEM.
+        </p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Interactive Order Calculator & Inquiry Form -->
+        <div class="order-form-card">
+          <!-- Price Calculator Widget -->
+          <div class="calc-widget">
+            <h4 data-i18n="calc.title">Bảng Tính Giá &amp; Ưu Đãi Dự Kiến</h4>
+            <div class="calc-unit-price" data-i18n="calc.unit_price">Giá bán lẻ niêm yết: 99.000 đ / bộ</div>
+
+            <div class="calc-row">
+              <label for="kitQuantityInput" data-i18n="calc.input_label">Nhập số lượng kit bạn muốn đặt:</label>
+              <div class="qty-input-box">
+                <input type="number" id="kitQuantityInput" value="30" min="1" max="1000">
+              </div>
+            </div>
+
+            <div class="calc-row">
+              <span data-i18n="calc.discount_label">Mức chiết khấu áp dụng:</span>
+              <span id="discountDisplay" style="color: #00D2B4; font-weight: bold;">-20% (Ưu đãi đơn trường học)</span>
+            </div>
+
+            <div class="calc-row calc-total-row">
+              <span data-i18n="calc.total_label">Tổng thanh toán dự kiến:</span>
+              <span class="calc-total-price" id="totalPriceDisplay">2.376.000 VNĐ</span>
+            </div>
+
+            <div class="calc-note-text" data-i18n="calc.note">
+              (Chiết khấu trường học: Đặt ≥ 30 bộ giảm 20%; Đặt ≥ 50 bộ giảm 30% tặng kèm giáo án tiết dạy)
+            </div>
+          </div>
+
+          <!-- Contact / Order Form -->
+          <form id="legasilkOrderForm">
+            <div class="form-group">
+              <label data-i18n="form.role_label">Bạn là:</label>
+              <select id="userRoleSelect" required>
+                <option value="parent" data-i18n="form.role_parent">Phụ huynh mua cho bé</option>
+                <option value="teacher" selected data-i18n="form.role_teacher">Giáo viên / Đại diện Trường học</option>
+                <option value="partner" data-i18n="form.role_partner">Cửa hàng lưu niệm / Đối tác</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="form.name">Họ và tên của bạn</label>
+              <input type="text" id="userNameInput" placeholder="Ví dụ: Nguyễn Văn A" data-i18n-attr="placeholder:form.name_placeholder" required>
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="form.phone">Số điện thoại liên hệ</label>
+              <input type="tel" id="userPhoneInput" placeholder="Ví dụ: 0912 345 678" data-i18n-attr="placeholder:form.phone_placeholder" required>
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="form.email">Địa chỉ Email</label>
+              <input type="email" id="userEmailInput" placeholder="Ví dụ: email@gmail.com" data-i18n-attr="placeholder:form.email_placeholder">
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="form.address">Trường học hoặc Địa chỉ nhận hàng</label>
+              <input type="text" id="userAddressInput" placeholder="Ví dụ: Trường Tiểu học Thăng Long, Hoàn Kiếm, Hà Nội" data-i18n-attr="placeholder:form.address_placeholder" required>
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="form.message">Ghi chú thêm về yêu cầu</label>
+              <textarea id="userMessageInput" rows="3" placeholder="Ví dụ: Tôi muốn đặt mẫu thử 1 kit / Cần tư vấn cho 2 lớp 3..." data-i18n-attr="placeholder:form.message_placeholder"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.15rem;" data-i18n="form.submit">
+              Gửi Yêu Cầu Tư Vấn Ngay 🚀
+            </button>
+          </form>
+        </div>
+
+        <!-- Project & Team Details -->
+        <div class="contact-info-card">
+          <div class="info-box">
+            <h3 data-i18n="info.title">Thông Tin Liên Hệ Dự Án Legasilk</h3>
+            <ul class="info-items-list">
+              <li class="info-item">
+                <span class="info-item-icon">🏆</span>
+                <div>
+                  <strong>Đội ngũ sáng lập:</strong><br>
+                  <span data-i18n="info.team">Đội thi Gladiolus — Cuộc thi Khởi nghiệp Star Award 2026</span>
+                </div>
+              </li>
+
+              <li class="info-item">
+                <span class="info-item-icon">📍</span>
+                <div>
+                  <strong>Địa chỉ xưởng hợp tác:</strong><br>
+                  <span data-i18n="info.address">Phố Lụa Vạn Phúc, P. Vạn Phúc, Q. Hà Đông, Hà Nội</span>
+                </div>
+              </li>
+
+              <li class="info-item">
+                <span class="info-item-icon">📧</span>
+                <div>
+                  <strong>Email dự án:</strong><br>
+                  <span data-i18n="info.email">contact.legasilk@gmail.com</span>
+                </div>
+              </li>
+
+              <li class="info-item">
+                <span class="info-item-icon">📞</span>
+                <div>
+                  <strong>Hotline hỗ trợ trường học:</strong><br>
+                  <span data-i18n="info.hotline">(+84) 988 123 456</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Little mascot banner -->
+          <div style="background: #FFFDF0; border: 2px solid var(--silk-gold); border-radius: var(--radius-md); padding: 24px; text-align: center;">
+            <img src="assets/images/hero-mascot.svg" alt="Mascot Bé Tằm" style="height: 120px; margin: 0 auto 12px auto;">
+            <h4 style="font-size: 1.25rem; color: #B45309; margin-bottom: 6px;">Đồng Hành Cùng Trẻ Thơ</h4>
+            <p style="font-size: 0.92rem; color: #78350F; font-weight: 600;">
+              Mỗi bộ kit Legasilk được trao đi là một hạt mầm gìn giữ văn hóa Việt Nam được thắp sáng trong trái tim các bạn nhỏ.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Accordions -->
+      <div class="faq-container">
+        <h3 data-i18n="faq.title">Các Câu Hỏi Thường Gặp (FAQ)</h3>
+        
+        <div class="faq-list">
+          <div class="faq-item open">
+            <div class="faq-question" data-i18n="faq.q1">
+              1. Bộ kit Legasilk phù hợp với lứa tuổi nào nhất?
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq.a1">
+                Bộ kit được thiết kế tối ưu cho học sinh từ 6 đến 11 tuổi (lớp 1 đến lớp 5). Các bạn nhỏ từ lớp 1-2 có thể cần bố mẹ hoặc thầy cô hỗ trợ mắc sợi dọc ban đầu, còn học sinh từ lớp 3 trở lên hoàn toàn có thể tự làm 100% theo video.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" data-i18n="faq.q2">
+              2. Thời gian để dệt xong một chiếc kẹp sách mất bao lâu?
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq.a2">
+                Thông thường chỉ mất từ 45 đến 60 phút. Khoảng thời gian này vừa vặn cho 1 tiết học trải nghiệm tại trường hoặc 1 buổi thủ công cuối tuần vui vẻ tại nhà.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" data-i18n="faq.q3">
+              3. Vật liệu trong bộ kit có an toàn cho trẻ nhỏ không?
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq.a3">
+                Hoàn toàn an toàn! Khung gỗ tự nhiên và các dụng cụ thoi dệt, lược dệt đều được chà nhám mịn màng, không dằm xước, không góc nhọn. Sợi tơ tằm mềm mại, nhuộm màu an toàn không gây kích ứng da tay bé.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" data-i18n="faq.q4">
+              4. Bộ kit có liên hệ thế nào với chương trình học chính khóa?
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq.a4">
+                Bộ kit bám sát Chương trình GDPT 2018, đặc biệt là chủ đề 'Nghề dệt lụa làng Vạn Phúc' trong Tài liệu Giáo dục địa phương lớp 3 của Hà Nội và môn Hoạt động trải nghiệm.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       8. SITE FOOTER
+  ========================================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/images/logo.svg" alt="Legasilk Logo Trắng">
+        <p data-i18n="footer.desc">
+          Legasilk — Đưa tinh hoa làng nghề lụa Vạn Phúc vào từng nhịp học và từng tác phẩm kẹp sách của thiếu nhi Việt Nam.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4 data-i18n="nav.tutorials">Video Hướng Dẫn</h4>
+        <ul class="footer-links">
+          <li><a href="#tutorials" data-i18n="lesson1.title">Bài 1: Mắc sợi dọc</a></li>
+          <li><a href="#tutorials" data-i18n="lesson2.title">Bài 2: Luồn thoi dệt trơn</a></li>
+          <li><a href="#tutorials" data-i18n="lesson3.title">Bài 3: Hoa văn sắc màu</a></li>
+          <li><a href="#tutorials" data-i18n="lesson4.title">Bài 4: Hoàn thiện kẹp sách</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4 data-i18n="nav.about">Về Dự Án</h4>
+        <ul class="footer-links">
+          <li><a href="#about" data-i18n="nav.about">Giới thiệu Legasilk</a></li>
+          <li><a href="#inspiration" data-i18n="nav.inspiration">Làng lụa Vạn Phúc</a></li>
+          <li><a href="#showcase" data-i18n="nav.showcase">Tác phẩm của bé</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Liên hệ &amp; Báo giá</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div data-i18n="footer.copy">
+        © 2026 Legasilk — Dự án Khởi nghiệp Team Gladiolus. Bản quyền thuộc về tác giả.
+      </div>
+      <div class="footer-badge" data-i18n="footer.badge">
+        Star Award 2026 Project
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================
+       9. MODAL: CELEBRATION AFTER FORM SUBMISSION
+  ========================================== -->
+  <div class="modal-overlay" id="celebrationModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeCelebrationBtn" aria-label="Đóng popup">✕</button>
+      <div class="celebration-box">
+        <div class="celebration-icon">🎉</div>
+        <h3 data-i18n="form.success_title">Gửi thành công! 🎉</h3>
+        <p data-i18n="form.success_msg">
+          Cảm ơn bạn đã quan tâm đến Legasilk! Đội ngũ Gladiolus sẽ liên hệ lại với bạn trong vòng 24 giờ làm việc.
+        </p>
+        <button type="button" class="btn btn-primary" onclick="document.getElementById('celebrationModal').classList.remove('active')">
+          Tuyệt vời! 👍
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+       10. MODAL: QUICK PRINTABLE 1-PAGE GUIDE
+  ========================================== -->
+  <div class="modal-overlay" id="quickGuideModal">
+    <div class="modal-card printable-guide-card">
+      <button class="modal-close-btn" id="closeQuickGuideBtn" aria-label="Đóng cẩm nang">✕</button>
+      
+      <h2>CẨM NANG HƯỚNG DẪN DỆT KẸP SÁCH LEGASILK</h2>
+      <p style="text-align: center; color: var(--text-muted); font-weight: 700;">
+        (Bản tóm tắt in nhanh 1 trang A4 dành cho giáo viên và học sinh)
+      </p>
+
+      <div class="printable-steps-grid">
+        <div class="print-step-box">
+          <h4 style="color: var(--silk-ruby);">Bước 1: Mắc sợi dọc (Warping)</h4>
+          <p>Mắc 9 sợi dọc từ rãnh trên xuống rãnh dưới của khung dệt. Giữ độ căng vừa phải để khung gỗ không bị uốn cong.</p>
+        </div>
+
+        <div class="print-step-box">
+          <h4 style="color: var(--silk-jade);">Bước 2: Luồn thoi dệt trơn</h4>
+          <p>Áp dụng thần chú: 'Đè 1 sợi - Luồn 1 sợi'. Kéo nhẹ nhàng, chừa đường cong cầu vồng rồi dùng lược gạt xuống.</p>
+        </div>
+
+        <div class="print-step-box">
+          <h4 style="color: #D48B00);">Bước 3: Đổi màu &amp; Quả trám</h4>
+          <p>Chừa đuôi chỉ cũ 3cm để giấu vào trong. Nối màu mới và dệt theo sơ đồ hình thoi quả trám truyền thống.</p>
+        </div>
+
+        <div class="print-step-box">
+          <h4 style="color: var(--silk-purple);">Bước 4: Thắt nút &amp; Xỏ hạt</h4>
+          <p>Gỡ các vòng chỉ khỏi răng lược. Thắt nút đôi chắc chắn, chải đều tua rua và xỏ hạt gỗ may mắn.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 20px;">
+        <button type="button" class="btn btn-teal" id="printGuideBtn">
+          In Bản Hướng Dẫn Này (Print A4) 🖨️
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

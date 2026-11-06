@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="kitBgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F5" />
+      <stop offset="100%" stop-color="#E8F8F5" />
+    </linearGradient>
+    <linearGradient id="loomWood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E9C46A" />
+      <stop offset="50%" stop-color="#F4A261" />
+      <stop offset="100%" stop-color="#E76F51" />
+    </linearGradient>
+    <linearGradient id="woodLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDE8CD" />
+      <stop offset="100%" stop-color="#ECC695" />
+    </linearGradient>
+    <linearGradient id="wovenSilkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E63946" />
+      <stop offset="25%" stop-color="#F77F00" />
+      <stop offset="50%" stop-color="#FCBF49" />
+      <stop offset="75%" stop-color="#2A9D8F" />
+      <stop offset="100%" stop-color="#457B9D" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2B2D42" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background Soft Pill -->
+  <rect x="20" y="20" width="560" height="410" rx="30" fill="url(#kitBgGlow)" stroke="#FFE5D9" stroke-width="4"/>
+
+  <!-- Decorative Corner Elements -->
+  <circle cx="50" cy="50" r="14" fill="#FFB703" opacity="0.4"/>
+  <circle cx="550" cy="50" r="18" fill="#FF5E7E" opacity="0.3"/>
+  <circle cx="60" cy="390" r="20" fill="#00D2B4" opacity="0.3"/>
+
+  <!-- Floor Shadow for kit components -->
+  <ellipse cx="300" cy="370" rx="240" ry="35" fill="#D3DCE6" opacity="0.5"/>
+
+  <!-- 1. The Wooden Mini Loom (Main Center Item) -->
+  <g transform="translate(140, 60)" filter="url(#dropShadow)">
+    <!-- Loom Outer Frame (Safe rounded corners) -->
+    <rect x="0" y="0" width="220" height="300" rx="16" fill="url(#woodLight)" stroke="#B37D4E" stroke-width="6"/>
+    <!-- Hollow inner working window -->
+    <rect x="25" y="35" width="170" height="230" rx="10" fill="#FFFDF9" stroke="#C28B57" stroke-width="4"/>
+
+    <!-- Top & Bottom Warp Teeth / Pegs (Notches) -->
+    <!-- Top Pegs -->
+    <g fill="#A46E3F">
+      <rect x="35" y="25" width="8" height="12" rx="3"/>
+      <rect x="52" y="25" width="8" height="12" rx="3"/>
+      <rect x="69" y="25" width="8" height="12" rx="3"/>
+      <rect x="86" y="25" width="8" height="12" rx="3"/>
+      <rect x="103" y="25" width="8" height="12" rx="3"/>
+      <rect x="120" y="25" width="8" height="12" rx="3"/>
+      <rect x="137" y="25" width="8" height="12" rx="3"/>
+      <rect x="154" y="25" width="8" height="12" rx="3"/>
+      <rect x="171" y="25" width="8" height="12" rx="3"/>
+    </g>
+    <!-- Bottom Pegs -->
+    <g fill="#A46E3F">
+      <rect x="35" y="263" width="8" height="12" rx="3"/>
+      <rect x="52" y="263" width="8" height="12" rx="3"/>
+      <rect x="69" y="263" width="8" height="12" rx="3"/>
+      <rect x="86" y="263" width="8" height="12" rx="3"/>
+      <rect x="103" y="263" width="8" height="12" rx="3"/>
+      <rect x="120" y="263" width="8" height="12" rx="3"/>
+      <rect x="137" y="263" width="8" height="12" rx="3"/>
+      <rect x="154" y="263" width="8" height="12" rx="3"/>
+      <rect x="171" y="263" width="8" height="12" rx="3"/>
+    </g>
+
+    <!-- Warp Strings (Vertical white/cream threads) -->
+    <g stroke="#C5B49E" stroke-width="2.5" stroke-dasharray="none">
+      <line x1="39" y1="35" x2="39" y2="265"/>
+      <line x1="56" y1="35" x2="56" y2="265"/>
+      <line x1="73" y1="35" x2="73" y2="265"/>
+      <line x1="90" y1="35" x2="90" y2="265"/>
+      <line x1="107" y1="35" x2="107" y2="265"/>
+      <line x1="124" y1="35" x2="124" y2="265"/>
+      <line x1="141" y1="35" x2="141" y2="265"/>
+      <line x1="158" y1="35" x2="158" y2="265"/>
+      <line x1="175" y1="35" x2="175" y2="265"/>
+    </g>
+
+    <!-- Woven Textile section (In-progress bookmark being made on loom) -->
+    <g transform="translate(35, 120)">
+      <rect x="0" y="0" width="144" height="110" rx="4" fill="url(#wovenSilkGrad)"/>
+      <!-- Detailed weave texture lines -->
+      <path d="M 0 15 L 144 15 M 0 30 L 144 30 M 0 45 L 144 45 M 0 60 L 144 60 M 0 75 L 144 75 M 0 90 L 144 90 M 0 105 L 144 105" 
+            stroke="#FFF" stroke-width="1.2" opacity="0.45" stroke-dasharray="3,3"/>
+      <!-- Traditional diamond motif in silk -->
+      <polygon points="72,30 92,50 72,70 52,50" fill="#FFD166" opacity="0.9"/>
+      <polygon points="72,40 82,50 72,60 62,50" fill="#E63946"/>
+    </g>
+
+    <!-- Laser engraved branding on loom -->
+    <text x="110" y="18" font-family="'Baloo 2', sans-serif" font-size="12" font-weight="800" fill="#8C5329" text-anchor="middle">
+      LEGASILK • VẠN PHÚC
+    </text>
+  </g>
+
+  <!-- 2. Colorful Silk Skeins (Bundles of shiny Vạn Phúc thread) -->
+  <!-- Skein 1: Royal Ruby Pink -->
+  <g transform="translate(60, 240) rotate(-18)" filter="url(#dropShadow)">
+    <rect x="0" y="0" width="35" height="95" rx="17" fill="#E63946" stroke="#9E1B26" stroke-width="2.5"/>
+    <ellipse cx="17" cy="18" rx="12" ry="8" fill="#FF758F"/>
+    <ellipse cx="17" cy="77" rx="12" ry="8" fill="#FF758F"/>
+    <!-- Paper Band around thread -->
+    <rect x="-2" y="35" width="39" height="25" rx="3" fill="#FFF8F0" stroke="#8C5329" stroke-width="1.5"/>
+    <text x="17" y="52" font-family="'Quicksand', sans-serif" font-size="9" font-weight="900" fill="#8C5329" text-anchor="middle">LỤA</text>
+  </g>
+
+  <!-- Skein 2: Golden Sunshine -->
+  <g transform="translate(85, 270) rotate(-5)" filter="url(#dropShadow)">
+    <rect x="0" y="0" width="35" height="95" rx="17" fill="#FFB703" stroke="#D48B00" stroke-width="2.5"/>
+    <ellipse cx="17" cy="18" rx="12" ry="8" fill="#FFE57F"/>
+    <ellipse cx="17" cy="77" rx="12" ry="8" fill="#FFE57F"/>
+    <rect x="-2" y="35" width="39" height="25" rx="3" fill="#FFF8F0" stroke="#8C5329" stroke-width="1.5"/>
+    <text x="17" y="52" font-family="'Quicksand', sans-serif" font-size="9" font-weight="900" fill="#8C5329" text-anchor="middle">TƠ</text>
+  </g>
+
+  <!-- Skein 3: Emerald Jade -->
+  <g transform="translate(45, 150) rotate(15)" filter="url(#dropShadow)">
+    <rect x="0" y="0" width="35" height="95" rx="17" fill="#2A9D8F" stroke="#1D6A61" stroke-width="2.5"/>
+    <ellipse cx="17" cy="18" rx="12" ry="8" fill="#64DFDF"/>
+    <ellipse cx="17" cy="77" rx="12" ry="8" fill="#64DFDF"/>
+    <rect x="-2" y="35" width="39" height="25" rx="3" fill="#FFF8F0" stroke="#8C5329" stroke-width="1.5"/>
+    <text x="17" y="52" font-family="'Quicksand', sans-serif" font-size="9" font-weight="900" fill="#8C5329" text-anchor="middle">GẤM</text>
+  </g>
+
+  <!-- 3. Wooden Weaving Tools -->
+  <!-- Wooden Beater / Weaving Comb -->
+  <g transform="translate(420, 90) rotate(22)" filter="url(#dropShadow)">
+    <rect x="0" y="0" width="110" height="42" rx="10" fill="#ECC695" stroke="#A46E3F" stroke-width="3"/>
+    <rect x="40" y="40" width="30" height="35" rx="8" fill="#ECC695" stroke="#A46E3F" stroke-width="3"/>
+    <!-- Comb Teeth -->
+    <g fill="#A46E3F">
+      <rect x="10" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="20" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="30" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="40" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="50" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="60" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="70" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="80" y="0" width="3.5" height="20" rx="1.5"/>
+      <rect x="90" y="0" width="3.5" height="20" rx="1.5"/>
+    </g>
+    <text x="55" y="32" font-family="'Quicksand', sans-serif" font-size="8" font-weight="800" fill="#6F3900" text-anchor="middle">LƯỢC DỆT</text>
+  </g>
+
+  <!-- Wooden Shuttle passing through with cyan thread -->
+  <g transform="translate(370, 200) rotate(-15)" filter="url(#dropShadow)">
+    <path d="M 0 18 C 0 8, 25 0, 70 0 C 115 0, 140 8, 140 18 C 140 28, 115 36, 70 36 C 25 36, 0 28, 0 18 Z" 
+          fill="#ECC695" stroke="#8C5329" stroke-width="3"/>
+    <rect x="45" y="9" width="50" height="18" rx="9" fill="#FFF7ED" stroke="#8C5329" stroke-width="2"/>
+    <rect x="52" y="12" width="36" height="12" rx="6" fill="#00D2B4"/>
+    <!-- Flowing cyan silk tail -->
+    <path d="M 52 18 C 10 30, -30 10, -60 40" fill="none" stroke="#00D2B4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 4. The Finished Silk Bookmark (Tác phẩm kẹp sách hoàn chỉnh) -->
+  <g transform="translate(460, 190) rotate(10)" filter="url(#dropShadow)">
+    <!-- Silk bookmark body -->
+    <rect x="0" y="0" width="75" height="180" rx="8" fill="url(#wovenSilkGrad)" stroke="#B37D4E" stroke-width="2.5"/>
+    <!-- Traditional woven diamond & zigzag pattern on bookmark -->
+    <polygon points="37.5,30 55,50 37.5,70 20,50" fill="#FFD166"/>
+    <polygon points="37.5,80 55,100 37.5,120 20,100" fill="#FFE57F"/>
+    <polygon points="37.5,130 55,150 37.5,170 20,150" fill="#FFFFFF" opacity="0.8"/>
+
+    <!-- Top hanging loop with wooden bead -->
+    <path d="M 37.5 0 C 37.5 -25, 45 -35, 37.5 -45 C 30 -35, 37.5 -25, 37.5 0" fill="none" stroke="#E76F51" stroke-width="3"/>
+    <circle cx="37.5" cy="-25" r="8" fill="#ECC695" stroke="#8C5329" stroke-width="2"/>
+
+    <!-- Bottom Fringes / Tassels (Tua rua lụa óng ánh) -->
+    <g stroke="#FCBF49" stroke-width="2" stroke-linecap="round">
+      <line x1="10" y1="180" x2="6" y2="215"/>
+      <line x1="20" y1="180" x2="18" y2="220"/>
+      <line x1="30" y1="180" x2="29" y2="225"/>
+      <line x1="40" y1="180" x2="41" y2="225"/>
+      <line x1="50" y1="180" x2="52" y2="220"/>
+      <line x1="65" y1="180" x2="69" y2="215"/>
+    </g>
+    <!-- Little Badge "Bookmark Tự Dệt" -->
+    <rect x="-15" y="75" width="105" height="24" rx="12" fill="#FFFFFF" stroke="#FF5E7E" stroke-width="2"/>
+    <text x="37.5" y="91" font-family="'Baloo 2', sans-serif" font-size="11" font-weight="800" fill="#E63946" text-anchor="middle">
+      Kẹp Sách Của Em ✨
+    </text>
+  </g>
+
+  <!-- 5. Cute Quality Badge "100% Gỗ Tự Nhiên & Lụa Thật Vạn Phúc" -->
+  <g transform="translate(60, 60)" filter="url(#dropShadow)">
+    <circle cx="35" cy="35" r="35" fill="#FF5E7E" stroke="#FFF" stroke-width="3"/>
+    <text x="35" y="30" font-family="'Baloo 2', sans-serif" font-size="12" font-weight="900" fill="#FFF" text-anchor="middle">100%</text>
+    <text x="35" y="44" font-family="'Quicksand', sans-serif" font-size="9" font-weight="800" fill="#FFF" text-anchor="middle">LỤA THẬT</text>
+    <text x="35" y="55" font-family="'Quicksand', sans-serif" font-size="8" font-weight="700" fill="#FFE57F" text-anchor="middle">AN TOÀN</text>
+  </g>
+</svg>

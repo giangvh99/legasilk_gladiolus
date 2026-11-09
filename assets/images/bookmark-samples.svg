@@ -1,118 +1,182 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" height="100%">
   <defs>
     <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#2B2D42" flood-opacity="0.1"/>
     </filter>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FF5E7E"/>
-      <stop offset="100%" stop-color="#FFAA00"/>
+    <!-- Gradients -->
+    <linearGradient id="goldSilk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FFA000"/>
     </linearGradient>
-    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="pinkSilk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF758F"/>
+      <stop offset="50%" stop-color="#FF4D6D"/>
+      <stop offset="100%" stop-color="#C9184A"/>
+    </linearGradient>
+    <linearGradient id="rainbowSilk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="25%" stop-color="#F4A261"/>
+      <stop offset="50%" stop-color="#E9C46A"/>
+      <stop offset="75%" stop-color="#2A9D8F"/>
+      <stop offset="100%" stop-color="#264653"/>
+    </linearGradient>
+    <linearGradient id="jadeSilk" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#00D2B4"/>
-      <stop offset="100%" stop-color="#3A86FF"/>
-    </linearGradient>
-    <linearGradient id="g3" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFD166"/>
-      <stop offset="100%" stop-color="#06D6A0"/>
-    </linearGradient>
-    <linearGradient id="g4" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#9D4EDD"/>
-      <stop offset="100%" stop-color="#FF5E7E"/>
+      <stop offset="50%" stop-color="#00A896"/>
+      <stop offset="100%" stop-color="#028090"/>
     </linearGradient>
   </defs>
 
-  <!-- Card 1: Bé Bảo An (Lớp 3A) -->
-  <g transform="translate(30, 20)" filter="url(#cardShadow)">
-    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#FFE3E8" stroke-width="2"/>
-    <!-- Bookmark 1 -->
-    <g transform="translate(30, 25)">
-      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g1)" stroke="#B37D4E" stroke-width="2"/>
-      <polygon points="30,25 45,40 30,55 15,40" fill="#FFF"/>
-      <polygon points="30,70 45,85 30,100 15,85" fill="#FFF"/>
-      <!-- Loop -->
-      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#FF5E7E" stroke-width="2.5" fill="none"/>
-      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
-      <!-- Fringe -->
-      <line x1="12" y1="150" x2="8" y2="175" stroke="#FFAA00" stroke-width="2"/>
-      <line x1="24" y1="150" x2="22" y2="180" stroke="#FF5E7E" stroke-width="2"/>
-      <line x1="36" y1="150" x2="38" y2="180" stroke="#FF5E7E" stroke-width="2"/>
-      <line x1="48" y1="150" x2="52" y2="175" stroke="#FFAA00" stroke-width="2"/>
+  <!-- Card 1: Kẹp Sách Hoa Mai Vàng -->
+  <g transform="translate(25, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="155" height="330" rx="18" fill="#FFFFFF" stroke="#FFE8B3" stroke-width="2.5"/>
+    
+    <!-- Bookmark 1 (Golden Silk with Cyan Flower) -->
+    <g transform="translate(47, 30)">
+      <!-- Bookmark body -->
+      <rect x="0" y="0" width="60" height="160" rx="6" fill="url(#goldSilk)" stroke="#B37D4E" stroke-width="2"/>
+      <!-- Ribbed texture lines -->
+      <line x1="0" y1="20" x2="60" y2="20" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="40" x2="60" y2="40" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="60" x2="60" y2="60" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="80" x2="60" y2="80" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="100" x2="60" y2="100" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="120" x2="60" y2="120" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="140" x2="60" y2="140" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+
+      <!-- Top loop with wooden bead -->
+      <path d="M 30 0 Q 30 -22 35 -24 Q 25 -22 30 0" stroke="#FFA000" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-14" r="5" fill="#ECC695" stroke="#8C5329" stroke-width="1.5"/>
+
+      <!-- Pretty Cyan Flower Applique at top -->
+      <g transform="translate(30, 25)">
+        <circle cx="-7" cy="0" r="5" fill="#00D2B4"/>
+        <circle cx="7" cy="0" r="5" fill="#00D2B4"/>
+        <circle cx="0" cy="-7" r="5" fill="#00D2B4"/>
+        <circle cx="0" cy="7" r="5" fill="#00D2B4"/>
+        <circle cx="0" cy="0" r="4.5" fill="#FFF"/>
+      </g>
+
+      <!-- Bottom Fringes -->
+      <line x1="10" y1="160" x2="6" y2="188" stroke="#FFA000" stroke-width="2"/>
+      <line x1="22" y1="160" x2="20" y2="192" stroke="#FFC837" stroke-width="2"/>
+      <line x1="30" y1="160" x2="30" y2="195" stroke="#FFA000" stroke-width="2"/>
+      <line x1="38" y1="160" x2="40" y2="192" stroke="#FFC837" stroke-width="2"/>
+      <line x1="50" y1="160" x2="54" y2="188" stroke="#FFA000" stroke-width="2"/>
     </g>
-    <!-- Label -->
-    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Bảo An</text>
-    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#E63946" text-anchor="middle">Lớp 3A • Tiểu học Đoàn Thị Điểm</text>
-    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Em tặng mẹ làm kẹp sách!"</text>
+
+    <!-- Product Name & Label (No kid info) -->
+    <rect x="25" y="240" width="105" height="24" rx="12" fill="#FFF9E6"/>
+    <text x="77.5" y="256" font-family="'Nunito', sans-serif" font-size="10.5" font-weight="800" fill="#D48B00" text-anchor="middle">MẪU HOA MAI</text>
+    <text x="77.5" y="280" font-family="'Nunito', sans-serif" font-size="13.5" font-weight="900" fill="#2B2D42" text-anchor="middle">Kẹp Sách Hoa Vàng</text>
+    <text x="77.5" y="300" font-family="'Nunito', sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle">Lụa tơ tằm Vạn Phúc</text>
   </g>
 
-  <!-- Card 2: Bé Minh Khôi (Lớp 4B) -->
-  <g transform="translate(170, 20)" filter="url(#cardShadow)">
-    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#D1F2EB" stroke-width="2"/>
-    <!-- Bookmark 2 -->
-    <g transform="translate(30, 25)">
-      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g2)" stroke="#B37D4E" stroke-width="2"/>
-      <!-- Stripes -->
+  <!-- Card 2: Kẹp Sách Hoa Hồng Xinh -->
+  <g transform="translate(195, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="155" height="330" rx="18" fill="#FFFFFF" stroke="#FFD6DF" stroke-width="2.5"/>
+    
+    <!-- Bookmark 2 (Pink Silk with Lavender Flower) -->
+    <g transform="translate(47, 30)">
+      <rect x="0" y="0" width="60" height="160" rx="6" fill="url(#pinkSilk)" stroke="#B37D4E" stroke-width="2"/>
+      <line x1="0" y1="20" x2="60" y2="20" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="40" x2="60" y2="40" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="60" x2="60" y2="60" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="80" x2="60" y2="80" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="100" x2="60" y2="100" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="120" x2="60" y2="120" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+      <line x1="0" y1="140" x2="60" y2="140" stroke="#FFF" stroke-width="1.2" opacity="0.6"/>
+
+      <!-- Top loop with wooden bead -->
+      <path d="M 30 0 Q 30 -22 35 -24 Q 25 -22 30 0" stroke="#FF4D6D" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-14" r="5" fill="#ECC695" stroke="#8C5329" stroke-width="1.5"/>
+
+      <!-- Pretty Lavender Flower Applique -->
+      <g transform="translate(30, 25)">
+        <circle cx="-7" cy="0" r="5" fill="#C77DFF"/>
+        <circle cx="7" cy="0" r="5" fill="#C77DFF"/>
+        <circle cx="0" cy="-7" r="5" fill="#C77DFF"/>
+        <circle cx="0" cy="7" r="5" fill="#C77DFF"/>
+        <circle cx="0" cy="0" r="4.5" fill="#FFF"/>
+      </g>
+
+      <!-- Bottom Fringes -->
+      <line x1="10" y1="160" x2="6" y2="188" stroke="#FF4D6D" stroke-width="2"/>
+      <line x1="22" y1="160" x2="20" y2="192" stroke="#FF758F" stroke-width="2"/>
+      <line x1="30" y1="160" x2="30" y2="195" stroke="#C9184A" stroke-width="2"/>
+      <line x1="38" y1="160" x2="40" y2="192" stroke="#FF758F" stroke-width="2"/>
+      <line x1="50" y1="160" x2="54" y2="188" stroke="#FF4D6D" stroke-width="2"/>
+    </g>
+
+    <!-- Product Name & Label -->
+    <rect x="25" y="240" width="105" height="24" rx="12" fill="#FFE5EC"/>
+    <text x="77.5" y="256" font-family="'Nunito', sans-serif" font-size="10.5" font-weight="800" fill="#E63946" text-anchor="middle">MẪU HOA HỒNG</text>
+    <text x="77.5" y="280" font-family="'Nunito', sans-serif" font-size="13.5" font-weight="900" fill="#2B2D42" text-anchor="middle">Kẹp Sách Hoa Xinh</text>
+    <text x="77.5" y="300" font-family="'Nunito', sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle">Lụa tơ tằm Vạn Phúc</text>
+  </g>
+
+  <!-- Card 3: Kẹp Sách Ngũ Sắc Cầu Vồng -->
+  <g transform="translate(365, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="155" height="330" rx="18" fill="#FFFFFF" stroke="#FFE5D9" stroke-width="2.5"/>
+    
+    <!-- Bookmark 3 (Rainbow Stripes) -->
+    <g transform="translate(47, 30)">
+      <rect x="0" y="0" width="60" height="160" rx="6" fill="url(#rainbowSilk)" stroke="#B37D4E" stroke-width="2"/>
       <rect x="0" y="25" width="60" height="15" fill="#FFF" opacity="0.8"/>
-      <rect x="0" y="65" width="60" height="15" fill="#FFF" opacity="0.8"/>
-      <rect x="0" y="105" width="60" height="15" fill="#FFF" opacity="0.8"/>
-      <!-- Loop -->
-      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#00D2B4" stroke-width="2.5" fill="none"/>
-      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
-      <!-- Fringe -->
-      <line x1="12" y1="150" x2="8" y2="175" stroke="#00D2B4" stroke-width="2"/>
-      <line x1="24" y1="150" x2="22" y2="180" stroke="#3A86FF" stroke-width="2"/>
-      <line x1="36" y1="150" x2="38" y2="180" stroke="#3A86FF" stroke-width="2"/>
-      <line x1="48" y1="150" x2="52" y2="175" stroke="#00D2B4" stroke-width="2"/>
+      <rect x="0" y="70" width="60" height="15" fill="#FFF" opacity="0.8"/>
+      <rect x="0" y="115" width="60" height="15" fill="#FFF" opacity="0.8"/>
+
+      <path d="M 30 0 Q 30 -22 35 -24 Q 25 -22 30 0" stroke="#E63946" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-14" r="5" fill="#ECC695" stroke="#8C5329" stroke-width="1.5"/>
+
+      <!-- Diamond Folk Motif -->
+      <polygon points="30,42 42,54 30,66 18,54" fill="#FFD166"/>
+      <polygon points="30,88 42,100 30,112 18,100" fill="#00D2B4"/>
+
+      <!-- Bottom Fringes -->
+      <line x1="10" y1="160" x2="6" y2="188" stroke="#E63946" stroke-width="2"/>
+      <line x1="22" y1="160" x2="20" y2="192" stroke="#F4A261" stroke-width="2"/>
+      <line x1="30" y1="160" x2="30" y2="195" stroke="#E9C46A" stroke-width="2"/>
+      <line x1="38" y1="160" x2="40" y2="192" stroke="#2A9D8F" stroke-width="2"/>
+      <line x1="50" y1="160" x2="54" y2="188" stroke="#264653" stroke-width="2"/>
     </g>
-    <!-- Label -->
-    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Minh Khôi</text>
-    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#00D2B4" text-anchor="middle">Lớp 4B • Vinschool Green Bay</text>
-    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Dệt vui như xếp hình Lego!"</text>
+
+    <!-- Product Name & Label -->
+    <rect x="25" y="240" width="105" height="24" rx="12" fill="#FFF0E6"/>
+    <text x="77.5" y="256" font-family="'Nunito', sans-serif" font-size="10.5" font-weight="800" fill="#F4A261" text-anchor="middle">MẪU CẦU VỒNG</text>
+    <text x="77.5" y="280" font-family="'Nunito', sans-serif" font-size="13.5" font-weight="900" fill="#2B2D42" text-anchor="middle">Kẹp Sách Ngũ Sắc</text>
+    <text x="77.5" y="300" font-family="'Nunito', sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle">Hoa văn dệt trơn cổ truyền</text>
   </g>
 
-  <!-- Card 3: Bé Trúc Linh (Lớp 2C) -->
-  <g transform="translate(310, 20)" filter="url(#cardShadow)">
-    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#FEF3C7" stroke-width="2"/>
-    <!-- Bookmark 3 -->
-    <g transform="translate(30, 25)">
-      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g3)" stroke="#B37D4E" stroke-width="2"/>
-      <polygon points="30,20 45,35 30,50 15,35" fill="#EF476F"/>
-      <polygon points="30,70 45,85 30,100 15,85" fill="#EF476F"/>
-      <!-- Loop -->
-      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#FFD166" stroke-width="2.5" fill="none"/>
-      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
-      <!-- Fringe -->
-      <line x1="12" y1="150" x2="8" y2="175" stroke="#FFD166" stroke-width="2"/>
-      <line x1="24" y1="150" x2="22" y2="180" stroke="#06D6A0" stroke-width="2"/>
-      <line x1="36" y1="150" x2="38" y2="180" stroke="#06D6A0" stroke-width="2"/>
-      <line x1="48" y1="150" x2="52" y2="175" stroke="#FFD166" stroke-width="2"/>
-    </g>
-    <!-- Label -->
-    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Trúc Linh</text>
-    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#F59E0B" text-anchor="middle">Lớp 2C • Archimedes Academy</text>
-    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Sợi tơ bóng mượt đẹp lắm ạ"</text>
-  </g>
+  <!-- Card 4: Kẹp Sách Quả Trám Ngọc Bích -->
+  <g transform="translate(535, 20)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="155" height="330" rx="18" fill="#FFFFFF" stroke="#D1F2EB" stroke-width="2.5"/>
+    
+    <!-- Bookmark 4 (Jade Silk with Yellow Diamond) -->
+    <g transform="translate(47, 30)">
+      <rect x="0" y="0" width="60" height="160" rx="6" fill="url(#jadeSilk)" stroke="#B37D4E" stroke-width="2"/>
+      
+      <!-- Diamond patterns -->
+      <polygon points="30,25 45,40 30,55 15,40" fill="#FFD166"/>
+      <polygon points="30,70 45,85 30,100 15,85" fill="#FFE57F"/>
+      <polygon points="30,115 45,130 30,145 15,130" fill="#FFD166"/>
 
-  <!-- Card 4: Bé Nam Phong (Lớp 5A) -->
-  <g transform="translate(450, 20)" filter="url(#cardShadow)">
-    <rect x="0" y="0" width="120" height="290" rx="14" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2"/>
-    <!-- Bookmark 4 -->
-    <g transform="translate(30, 25)">
-      <rect x="0" y="0" width="60" height="150" rx="6" fill="url(#g4)" stroke="#B37D4E" stroke-width="2"/>
-      <circle cx="30" cy="35" r="12" fill="#FFD166"/>
-      <circle cx="30" cy="80" r="12" fill="#FFD166"/>
-      <circle cx="30" cy="125" r="12" fill="#FFD166"/>
-      <!-- Loop -->
-      <path d="M 30 0 Q 30 -20 35 -22 Q 25 -20 30 0" stroke="#9D4EDD" stroke-width="2.5" fill="none"/>
-      <circle cx="30" cy="-12" r="5" fill="#ECC695"/>
-      <!-- Fringe -->
-      <line x1="12" y1="150" x2="8" y2="175" stroke="#FF5E7E" stroke-width="2"/>
-      <line x1="24" y1="150" x2="22" y2="180" stroke="#9D4EDD" stroke-width="2"/>
-      <line x1="36" y1="150" x2="38" y2="180" stroke="#9D4EDD" stroke-width="2"/>
-      <line x1="48" y1="150" x2="52" y2="175" stroke="#FF5E7E" stroke-width="2"/>
+      <path d="M 30 0 Q 30 -22 35 -24 Q 25 -22 30 0" stroke="#00D2B4" stroke-width="2.5" fill="none"/>
+      <circle cx="30" cy="-14" r="5" fill="#ECC695" stroke="#8C5329" stroke-width="1.5"/>
+
+      <!-- Bottom Fringes -->
+      <line x1="10" y1="160" x2="6" y2="188" stroke="#00D2B4" stroke-width="2"/>
+      <line x1="22" y1="160" x2="20" y2="192" stroke="#FFD166" stroke-width="2"/>
+      <line x1="30" y1="160" x2="30" y2="195" stroke="#00A896" stroke-width="2"/>
+      <line x1="38" y1="160" x2="40" y2="192" stroke="#FFD166" stroke-width="2"/>
+      <line x1="50" y1="160" x2="54" y2="188" stroke="#028090" stroke-width="2"/>
     </g>
-    <!-- Label -->
-    <text x="60" y="235" font-family="'Baloo 2', sans-serif" font-size="13" font-weight="800" fill="#2B2D42" text-anchor="middle">Bé Nam Phong</text>
-    <text x="60" y="252" font-family="'Quicksand', sans-serif" font-size="11" font-weight="600" fill="#8B5CF6" text-anchor="middle">Lớp 5A • Tiểu học Nguyễn Siêu</text>
-    <text x="60" y="270" font-family="'Quicksand', sans-serif" font-size="9.5" font-weight="600" fill="#888" text-anchor="middle">"Em tự làm được trong 45 phút"</text>
+
+    <!-- Product Name & Label -->
+    <rect x="25" y="240" width="105" height="24" rx="12" fill="#E8F8F5"/>
+    <text x="77.5" y="256" font-family="'Nunito', sans-serif" font-size="10.5" font-weight="800" fill="#00A896" text-anchor="middle">MẪU QUẢ TRÁM</text>
+    <text x="77.5" y="280" font-family="'Nunito', sans-serif" font-size="13.5" font-weight="900" fill="#2B2D42" text-anchor="middle">Kẹp Sách Ngọc Bích</text>
+    <text x="77.5" y="300" font-family="'Nunito', sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle">Họa tiết gấm cung đình</text>
   </g>
 </svg>

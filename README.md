@@ -52,12 +52,12 @@ star-award-2026/
 │   └── main.js                  # Điều khiển video, chuyển ngôn ngữ, tính giá, form
 └── assets/
     └── images/
-        ├── logo.svg             # Logo thương hiệu Legasilk
+        ├── legasilk-logo.jpg    # Logo chính thức thương hiệu Legasilk
+        ├── kit-bundle.jpg       # Ảnh chụp thực tế bộ sản phẩm Dệt Ước Mơ Legasilk
+        ├── van-phuc-village.jpg # Ảnh thực tế cổng Làng Lụa Vạn Phúc & phố ô sắc màu
         ├── hero-mascot.svg      # Linh vật Bé Tằm đội nón lá dệt lụa
-        ├── kit-bundle.svg       # Trọn bộ khung dệt gỗ và phụ kiện kit
-        ├── van-phuc-village.svg # Cổng làng lụa & phố ô sắc màu Vạn Phúc
         ├── silk-lifecycle.svg   # Infographic vòng đời tơ tằm cho bé
-        ├── bookmark-samples.svg # Bộ sưu tập kẹp sách do học sinh tự dệt
+        ├── bookmark-samples.svg # Bộ sưu tập 4 mẫu kẹp sách hoa xinh và quả trám
         ├── mascot-tip.svg       # Avatar Bé Tằm cho bong bóng lời thoại mẹo nhỏ
         ├── video-thumb-1.svg    # Thumbnail minh họa Video Bài 1
         ├── video-thumb-2.svg    # Thumbnail minh họa Video Bài 2

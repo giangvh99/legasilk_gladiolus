@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Watermark overlay
     videoCanvasCtx.fillStyle = 'rgba(43, 45, 66, 0.4)';
-    videoCanvasCtx.font = 'bold 12px Quicksand, sans-serif';
+    videoCanvasCtx.font = 'bold 12px Nunito, sans-serif';
     videoCanvasCtx.fillText(`LEGASILK • ${lesson.numKey.toUpperCase()}`, 25, 30);
   }
 

@@ -5,10 +5,10 @@ const translations = {
     "nav.about": "Về Legasilk",
     "nav.tutorials": "Video Hướng Dẫn",
     "nav.inspiration": "Cảm Hứng Vạn Phúc",
-    "nav.showcase": "Tác Phẩm Của Bé",
+    "nav.showcase": "Bộ Sưu Tập Mẫu",
     "nav.contact": "Liên Hệ & Đặt Kit",
     "nav.order_btn": "Đặt Kit Ngay ✨",
-    "lang.toggle": "English 🇬🇧",
+    "lang.toggle": "English",
 
     // Hero Section
     "hero.badge": "Làng Nghề Trong Tầm Tay Em 🌸",
@@ -43,7 +43,7 @@ const translations = {
     "kit.item3_title": "Tơ lụa ngũ sắc Vạn Phúc",
     "kit.item3_desc": "Sợi tơ lụa mềm mượt, óng ánh sắc màu tuyển chọn từ các xưởng dệt uy tín tại làng lụa Hà Đông.",
     "kit.item4_title": "Phụ kiện trang trí kẹp sách",
-    "kit.item4_desc": "Hạt gỗ mộc, chuông nhỏ, dây treo tua rua để hoàn thiện chiếc bookmark độc nhất vô nhị.",
+    "kit.item4_desc": "Hoa lụa đính kèm, hạt gỗ mộc, chuông nhỏ và dây treo tua rua để hoàn thiện kẹp sách độc nhất vô nhị.",
     "kit.item5_title": "Thẻ thông minh quét mã QR",
     "kit.item5_desc": "Dẫn trực tiếp đến chuỗi video hoạt hình hướng dẫn sinh động và câu chuyện làng nghề lý thú.",
 
@@ -84,7 +84,7 @@ const translations = {
     "lesson4.num": "BÀI 4",
     "lesson4.title": "Thắt Nút Vương Miện & Hoàn Thiện Kẹp Sách",
     "lesson4.duration": "04:00 phút",
-    "lesson4.desc": "Tháo bookmark ra khỏi khung gỗ, thắt tua rua lụa mềm mịn và xỏ hạt gỗ may mắn để hoàn thành tác phẩm kẹp sách.",
+    "lesson4.desc": "Tháo bookmark ra khỏi khung gỗ, thắt tua rua lụa mềm mịn và đính hoa trang trí để hoàn thành tác phẩm kẹp sách.",
     "lesson4.tip": "Tadaa! Chiếc kẹp sách lụa của em đã sẵn sàng để kẹp vào cuốn sách Tiếng Việt hoặc gửi tặng người thân rồi!",
 
     // Section 3: Inspiration - Van Phuc Silk
@@ -101,14 +101,14 @@ const translations = {
     "inspiration.artisan_quote": "“Thấy các cháu nhỏ say mê luồn từng sợi tơ, ngắm chiếc kẹp sách do chính tay mình dệt nên, những người thợ già như chúng tôi xúc động vô cùng. Làng nghề có tương lai hay không, chính là nhờ vào tình yêu của các cháu hôm nay.”",
     "inspiration.artisan_author": "— Nghệ nhân Đỗ Thị Hiền, Làng lụa Vạn Phúc, Hà Đông",
 
-    // Section 4: Student Showcase
-    "showcase.tag": "GÓC TRIỂN LÃM",
-    "showcase.title": "Tác Phẩm & Niềm Vui Của Các Thợ Dệt Nhí",
-    "showcase.lead": "Hàng trăm chiếc kẹp sách rực rỡ sắc màu đã được các bạn nhỏ tự tay dệt nên. Cùng lắng nghe cảm nhận của các bạn học sinh và thầy cô nhé!",
-    "showcase.testimonial1_text": "“Tiết Hoạt động trải nghiệm với bộ kit Legasilk khiến cả lớp 3 hào hứng khác hẳn. Các con chăm chú luồn thoi, không bạn nào nghịch ngợm hay đòi xem điện thoại suốt 45 phút!”",
+    // Section 4: Sample Showcase
+    "showcase.tag": "BỘ SƯU TẬP MẪU",
+    "showcase.title": "Các Mẫu Kẹp Sách Lụa Đẹp Mắt Của Legasilk",
+    "showcase.lead": "Mỗi chiếc kẹp sách là sự kết hợp hài hòa giữa sợi tơ lụa Vạn Phúc óng ả và bàn tay khéo léo. Dưới đây là các mẫu thành phẩm nổi bật có thể tự tay làm được từ bộ kit Legasilk!",
+    "showcase.testimonial1_text": "“Bộ kit được chuẩn bị rất chỉn chu, màu lụa bóng đẹp và khung dệt gỗ rất mịn màng an toàn cho học sinh. Các con chăm chú luồn thoi suốt 45 phút học trải nghiệm!”",
     "showcase.testimonial1_author": "Cô Mai Lan — Giáo viên Trường Tiểu học Đoàn Thị Điểm, Hà Nội",
-    "showcase.testimonial2_text": "“Con thích nhất là lúc dệt xong kẹp sách, mẹ khen đẹp quá nên con tặng mẹ để kẹp vào cuốn sách nấu ăn. Con cảm thấy mình như nghệ nhân thực thụ!”",
-    "showcase.testimonial2_author": "Bé Minh Châu — Học sinh Lớp 4, Hà Nội",
+    "showcase.testimonial2_text": "“Thành phẩm kẹp sách làm xong rất chắc chắn và đẹp mắt. Sợi tơ Vạn Phúc mềm mượt, các bông hoa trang trí xinh xắn giúp các bạn nhỏ rất hào hứng khi đọc sách.”",
+    "showcase.testimonial2_author": "Chị Thanh Hương — Phụ huynh học sinh, Hà Nội",
 
     // Section 5: Contact & Order
     "contact.tag": "KẾT NỐI & HỢP TÁC",
@@ -172,10 +172,10 @@ const translations = {
     "nav.about": "About Legasilk",
     "nav.tutorials": "Tutorial Videos",
     "nav.inspiration": "Our Inspiration",
-    "nav.showcase": "Kids Showcase",
+    "nav.showcase": "Sample Showcase",
     "nav.contact": "Contact & Order",
     "nav.order_btn": "Order Kit Now ✨",
-    "lang.toggle": "Tiếng Việt 🇻🇳",
+    "lang.toggle": "Tiếng Việt",
 
     // Hero Section
     "hero.badge": "A Village You Can Weave 🌸",
@@ -210,7 +210,7 @@ const translations = {
     "kit.item3_title": "Rainbow Van Phuc Silk Skeins",
     "kit.item3_desc": "Lustrous authentic silk threads curated from renowned artisan workshops in Van Phuc Village.",
     "kit.item4_title": "Bookmark Finishing Accessories",
-    "kit.item4_desc": "Natural wooden beads, tiny jingle bells, and fringe threads to personalize each student's unique keepsake.",
+    "kit.item4_desc": "Silk flower embellishments, wooden beads, and fringe threads to personalize each student's unique keepsake.",
     "kit.item5_title": "Smart QR Code Card",
     "kit.item5_desc": "Instant digital link to engaging cartoon video guides and fascinating craft village storytelling.",
 
@@ -251,7 +251,7 @@ const translations = {
     "lesson4.num": "LESSON 4",
     "lesson4.title": "Crown Knot Fringe & Showcase",
     "lesson4.duration": "04:00 mins",
-    "lesson4.desc": "Unhook your bookmark from the frame, knot silky fringes, and add a wooden bead for a gorgeous finish.",
+    "lesson4.desc": "Unhook your bookmark from the frame, knot silky fringes, and add flower embellishments for a gorgeous finish.",
     "lesson4.tip": "Tadaa! Your authentic silk bookmark is ready for your favorite storybook or as a heartfelt gift!",
 
     // Section 3: Inspiration - Van Phuc Silk
@@ -268,14 +268,14 @@ const translations = {
     "inspiration.artisan_quote": "“Seeing young children passionately weaving each thread and smiling over their handmade bookmarks warms our artisan hearts. The future of our village lives in the love of these children.”",
     "inspiration.artisan_author": "— Artisan Do Thi Hien, Van Phuc Silk Village, Ha Dong",
 
-    // Section 4: Student Showcase
-    "showcase.tag": "EXHIBITION CORNER",
-    "showcase.title": "Proud Creations by Young Little Weavers",
-    "showcase.lead": "Hundreds of colorful silk bookmarks have been created by primary students with big smiles. Here is what teachers and kids say!",
-    "showcase.testimonial1_text": "“The experiential class with Legasilk had our 3rd graders fully immersed. Not a single child asked for a phone or tablet during the entire 45 minutes!”",
-    "showcase.testimonial1_author": "Ms. Mai Lan — Teacher at Doan Thi Diem Primary School, Hanoi",
-    "showcase.testimonial2_text": "“I loved finishing my bookmark! My mom was so impressed that I gave it to her for her cookbook. I felt just like a real silk artisan!”",
-    "showcase.testimonial2_author": "Minh Chau (Grade 4) — Student in Hanoi",
+    // Section 4: Sample Showcase
+    "showcase.tag": "SAMPLE SHOWCASE",
+    "showcase.title": "Beautiful Finished Silk Bookmark Samples",
+    "showcase.lead": "Each bookmark blends lustrous Van Phuc silk with creative crafting. Here are featured sample finished designs made with the Legasilk kit!",
+    "showcase.testimonial1_text": "“The kit materials are exceptionally well prepared. The silk colors are lustrous and the wooden mini loom is smooth and safe for students throughout the experiential class.”",
+    "showcase.testimonial1_author": "Ms. Mai Lan — Primary School Teacher, Hanoi",
+    "showcase.testimonial2_text": "“The finished silk bookmarks look gorgeous and durable. The authentic silk threads and cute flower accents inspire children to read books every day!”",
+    "showcase.testimonial2_author": "Ms. Thanh Huong — Parent, Hanoi",
 
     // Section 5: Contact & Order
     "contact.tag": "GET IN TOUCH",

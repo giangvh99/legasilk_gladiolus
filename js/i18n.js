@@ -18,9 +18,9 @@ const translations = {
     "hero.desc": "Bộ kit dệt thủ công mini mang trọn vẹn tinh hoa làng nghề lụa hơn 1.000 năm tuổi Vạn Phúc đến tận bàn học của các bạn nhỏ. Trải nghiệm học tập xúc giác, rời xa màn hình số và tự tay tạo nên tác phẩm lưu niệm độc đáo!",
     "hero.btn_watch": "Xem Video Dệt Mẫu ▶",
     "hero.btn_explore": "Khám Phá Hộp Kit 📦",
-    "hero.pill_screen_free": "100% Rời xa màn hình 🌿",
-    "hero.pill_silk": "Lụa thật Vạn Phúc 🧵",
-    "hero.pill_curriculum": "Chuẩn GDPT 2018 🎒",
+    "hero.pill_screen_free": "Rời xa màn hình 🌿",
+    "hero.pill_silk": "Kết nối di sản 🏛️",
+    "hero.pill_curriculum": "Phù hợp GDPT 2018 🎒",
 
     // Section 1: About Legasilk
     "about.tag": "GIỚI THIỆU DỰ ÁN",
@@ -165,9 +165,9 @@ const translations = {
     "hero.desc": "A charming DIY mini loom kit bringing over 1,000 years of Van Phuc silk weaving heritage right to kids' desks. A tactile, screen-free learning journey that turns cultural tradition into proud, beautiful keepsakes!",
     "hero.btn_watch": "Watch Video Tutorials ▶",
     "hero.btn_explore": "Explore The Kit 📦",
-    "hero.pill_screen_free": "100% Screen-free fun 🌿",
-    "hero.pill_silk": "Authentic Van Phuc Silk 🧵",
-    "hero.pill_curriculum": "Curriculum Aligned 🎒",
+    "hero.pill_screen_free": "Screen-Free Play 🌿",
+    "hero.pill_silk": "Heritage Connection 🏛️",
+    "hero.pill_curriculum": "GDPT 2018 Aligned 🎒",
 
     // Section 1: About Legasilk
     "about.tag": "ABOUT THE VENTURE",

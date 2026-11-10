@@ -211,55 +211,51 @@
     <div class="container">
       <div class="section-header">
         <span class="section-tag" style="background:#E0F2F1; color:#00897B; border-color:#00D2B4;" data-i18n="tutorials.tag">TRẠM HỌC TẬP TƯƠNG TÁC</span>
-        <h2 class="section-title" data-i18n="tutorials.title">Chuỗi Video Hướng Dẫn Từng Bước Cho Bé</h2>
+        <h2 class="section-title" data-i18n="tutorials.title">Video Hướng Dẫn Thực Tế Từng Bước Cho Bé</h2>
         <p class="section-lead" data-i18n="tutorials.lead">
-          Đừng lo nếu bé chưa từng dệt bao giờ! Bạn Tằm Tí Hon sẽ hướng dẫn từng thao tác thật chậm rãi, vui nhộn qua 4 video ngắn chỉ từ 4 đến 6 phút.
+          Video hướng dẫn chi tiết trọn bộ từ A - Z giúp các bạn nhỏ dễ dàng tự tay dệt nên chiếc kẹp sách lụa Vạn Phúc xinh xắn!
         </p>
       </div>
 
-      <!-- Main Featured Interactive Video Player Container -->
+      <!-- Main Featured Video Player Container -->
       <div class="video-player-container">
         <div class="video-screen-layout">
-          <!-- Left: The Interactive Animated Video Screen -->
-          <div class="video-canvas-wrapper">
-            <canvas id="videoSimulatorCanvas" width="640" height="400" aria-label="Mô phỏng thao tác dệt kẹp sách"></canvas>
-            
-            <!-- Click-to-play overlay with thumbnail -->
-            <div class="video-thumb-overlay" id="videoThumbOverlay" style="background-image: url('assets/images/video-thumb-1.svg');">
-              <div class="overlay-play-pill">
-                <span>▶</span> <span data-i18n="tutorials.play">Phát video bài giảng</span>
-              </div>
-            </div>
-
-            <!-- Custom Video Controls Bar -->
-            <div class="video-custom-controls">
-              <button class="ctrl-btn" id="videoPlayBtn" aria-label="Phát hoặc tạm dừng video">
-                <span id="videoPlayIcon">▶</span>
-              </button>
-
-              <div class="progress-track">
-                <div class="progress-bar" id="videoProgressBar"></div>
-              </div>
-
-              <span class="timecode-label" id="videoTimecode">00:00 / 04:30</span>
-
-              <button class="ctrl-speed-btn" id="videoSpeedBtn" title="Điều chỉnh tốc độ">
-                1.0x
-              </button>
-            </div>
+          <!-- Left: Real YouTube Video Iframe Embed -->
+          <div class="video-iframe-wrapper">
+            <iframe 
+              src="https://www.youtube.com/embed/45Z-nhVSojE?rel=0&modestbranding=1" 
+              title="Video Hướng Dẫn Tự Tay Dệt Kẹp Sách Lụa Vạn Phúc - Legasilk" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
           </div>
 
-          <!-- Right: Active Lesson Meta, Step Checklist & Mascot Tip -->
+          <!-- Right: Video Meta, Chapter Highlights & Mascot Tip -->
           <div class="video-meta-box">
-            <span class="lesson-badge" id="currentLessonNum">BÀI 1</span>
-            <h3 id="currentLessonTitle">Khởi Đầu Kỳ Thú &amp; Mắc Sợi Dọc</h3>
-            <p id="currentLessonDesc">
-              Mở hộp Legasilk, làm quen các dụng cụ dệt gỗ và học cách mắc 9 sợi dọc căng đều tăm tắp trên khung.
+            <span class="lesson-badge" data-i18n="tutorials.badge">VIDEO HƯỚNG DẪN TRỌN BỘ</span>
+            <h3 data-i18n="tutorials.video_title">Tự Tay Dệt Kẹp Sách Lụa Vạn Phúc (Từ A - Z)</h3>
+            <p data-i18n="tutorials.video_desc">
+              Đầy đủ các bước thực hiện bộ kit Legasilk: từ mở hộp dụng cụ, mắc sợi dọc, luồn thoi dệt lụa đến thắt tua rua và đính hoa trang trí.
             </p>
 
-            <!-- Checklist steps -->
-            <ul class="lesson-steps-list" id="currentLessonStepsList">
-              <!-- Dynamically populated by JS -->
+            <!-- Video Steps / Chapters Overview -->
+            <ul class="lesson-steps-list">
+              <li class="step-item">
+                <span class="step-badge" style="background-color: #FF3366;">1</span>
+                <span class="step-text" data-i18n="tutorials.step1">Bước 1: Mở hộp &amp; Mắc 9 sợi dọc căng đều trên khung gỗ</span>
+              </li>
+              <li class="step-item">
+                <span class="step-badge" style="background-color: #00D2B4;">2</span>
+                <span class="step-text" data-i18n="tutorials.step2">Bước 2: Luồn thoi dệt trơn theo quy tắc 'Đè 1 - Luồn 1'</span>
+              </li>
+              <li class="step-item">
+                <span class="step-badge" style="background-color: #FFB703;">3</span>
+                <span class="step-text" data-i18n="tutorials.step3">Bước 3: Phối màu tơ lụa &amp; Tạo hoa văn quả trám truyền thống</span>
+              </li>
+              <li class="step-item">
+                <span class="step-badge" style="background-color: #8338EC;">4</span>
+                <span class="step-text" data-i18n="tutorials.step4">Bước 4: Tháo kẹp sách, thắt nút tua rua &amp; Đính hoa trang trí</span>
+              </li>
             </ul>
 
             <!-- Mascot Secret Tip Bubble -->
@@ -267,66 +263,11 @@
               <img src="assets/images/mascot-tip.svg" alt="Bạn Tằm Tí Hon" class="mascot-bubble-avatar">
               <div class="mascot-bubble-content">
                 <h5 data-i18n="tutorials.tip_box_title">Mẹo Bí Mật Của Bạn Tằm:</h5>
-                <p id="currentLessonTip">
-                  Hãy thắt nút khởi đầu vừa tay, không quá chặt để khung gỗ không bị cong, bé nhé!
+                <p data-i18n="tutorials.tip_content">
+                  Bé có thể bấm tạm dừng (Pause) ở từng đoạn trong video để thao tác theo cho thật chuẩn nhé!
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 4 Lessons Cards Grid -->
-      <div class="lessons-grid">
-        <!-- Lesson 1 Card -->
-        <div class="lesson-card active" data-lesson-idx="0">
-          <div class="lesson-card-thumb-wrap">
-            <img src="assets/images/video-thumb-1.svg" alt="Bài 1: Khởi đầu kỳ thú & Mắc sợi dọc">
-          </div>
-          <div class="lesson-card-body">
-            <span class="card-lesson-tag" data-i18n="lesson1.num">BÀI 1</span>
-            <h4 data-i18n="lesson1.title">Khởi Đầu Kỳ Thú &amp; Mắc Sợi Dọc</h4>
-            <p data-i18n="lesson1.desc">Mở hộp Legasilk, làm quen các dụng cụ dệt gỗ và học cách mắc 9 sợi dọc căng đều tăm tắp.</p>
-            <div class="card-duration-badge">⏱ <span data-i18n="lesson1.duration">04:30 phút</span></div>
-          </div>
-        </div>
-
-        <!-- Lesson 2 Card -->
-        <div class="lesson-card" data-lesson-idx="1">
-          <div class="lesson-card-thumb-wrap">
-            <img src="assets/images/video-thumb-2.svg" alt="Bài 2: Luồn thoi thần kỳ">
-          </div>
-          <div class="lesson-card-body">
-            <span class="card-lesson-tag" style="color: var(--silk-jade);" data-i18n="lesson2.num">BÀI 2</span>
-            <h4 data-i18n="lesson2.title">Luồn Thoi Thần Kỳ (Dệt Trơn)</h4>
-            <p data-i18n="lesson2.desc">Học thần chú: 'Đè một sợi - Nâng một sợi'. Dùng lược dệt gạt nhẹ để các hàng tơ khít chặt.</p>
-            <div class="card-duration-badge">⏱ <span data-i18n="lesson2.duration">06:15 phút</span></div>
-          </div>
-        </div>
-
-        <!-- Lesson 3 Card -->
-        <div class="lesson-card" data-lesson-idx="2">
-          <div class="lesson-card-thumb-wrap">
-            <img src="assets/images/video-thumb-3.svg" alt="Bài 3: Vũ điệu sắc màu & Hoa văn">
-          </div>
-          <div class="lesson-card-body">
-            <span class="card-lesson-tag" style="color: #D48B00;" data-i18n="lesson3.num">BÀI 3</span>
-            <h4 data-i18n="lesson3.title">Vũ Điệu Sắc Màu &amp; Hoa Văn</h4>
-            <p data-i18n="lesson3.desc">Bí quyết nối sợi lụa đổi màu không lộ mối và dệt hoa văn quả trám truyền thống của làng Vạn Phúc.</p>
-            <div class="card-duration-badge">⏱ <span data-i18n="lesson3.duration">05:45 phút</span></div>
-          </div>
-        </div>
-
-        <!-- Lesson 4 Card -->
-        <div class="lesson-card" data-lesson-idx="3">
-          <div class="lesson-card-thumb-wrap">
-            <img src="assets/images/video-thumb-4.svg" alt="Bài 4: Thắt nút vương miện & Hoàn thiện bookmark">
-          </div>
-          <div class="lesson-card-body">
-            <span class="card-lesson-tag" style="color: var(--silk-purple);" data-i18n="lesson4.num">BÀI 4</span>
-            <h4 data-i18n="lesson4.title">Thắt Nút Vương Miện &amp; Kẹp Sách</h4>
-            <p data-i18n="lesson4.desc">Tháo bookmark ra khỏi khung gỗ, thắt tua rua lụa mềm mịn và xỏ hạt gỗ may mắn hoàn thành tác phẩm.</p>
-            <div class="card-duration-badge">⏱ <span data-i18n="lesson4.duration">04:00 phút</span></div>
           </div>
         </div>
       </div>
@@ -672,10 +613,10 @@
       <div class="footer-column">
         <h4 data-i18n="nav.tutorials">Video Hướng Dẫn</h4>
         <ul class="footer-links">
-          <li><a href="#tutorials" data-i18n="lesson1.title">Bài 1: Mắc sợi dọc</a></li>
-          <li><a href="#tutorials" data-i18n="lesson2.title">Bài 2: Luồn thoi dệt trơn</a></li>
-          <li><a href="#tutorials" data-i18n="lesson3.title">Bài 3: Hoa văn sắc màu</a></li>
-          <li><a href="#tutorials" data-i18n="lesson4.title">Bài 4: Hoàn thiện kẹp sách</a></li>
+          <li><a href="#tutorials" data-i18n="tutorials.step1">Bước 1: Mắc sợi dọc</a></li>
+          <li><a href="#tutorials" data-i18n="tutorials.step2">Bước 2: Luồn thoi dệt trơn</a></li>
+          <li><a href="#tutorials" data-i18n="tutorials.step3">Bước 3: Hoa văn sắc màu</a></li>
+          <li><a href="#tutorials" data-i18n="tutorials.step4">Bước 4: Hoàn thiện kẹp sách</a></li>
         </ul>
       </div>
 

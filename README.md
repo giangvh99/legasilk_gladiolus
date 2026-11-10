@@ -21,12 +21,9 @@ Trang web này được xây dựng hoàn chỉnh dưới dạng **Static Web (H
    - Các nút bấm dạng 3D cartoon bo tròn mềm mại, chuyển động bập bênh thân thiện.
    - Hộp thoại bí kíp mách nước cho bé tại từng bước dệt.
 3. **Trạm học tương tác - Trọng tâm Video Hướng Dẫn:**
-   - Giao diện trình phát video hoạt hình thông minh tích hợp Canvas mô phỏng chuyển động con thoi và từng hàng dệt tơ tằm trực quan.
-   - 4 bài học chi tiết:
-     - *Bài 1: Khởi đầu kỳ thú & Mắc sợi dọc (04:30)*
-     - *Bài 2: Luồn thoi thần kỳ - Kỹ thuật dệt trơn (06:15)*
-     - *Bài 3: Vũ điệu sắc màu & Hoa văn quả trám (05:45)*
-     - *Bài 4: Thắt nút vương miện & Kẹp sách hoàn thiện (04:00)*
+   - Nhúng trực tiếp video hướng dẫn thực tế chính thức của Legasilk từ YouTube (ID: `45Z-nhVSojE`).
+   - Khung phát video chuẩn 16:9 sắc nét, âm thanh sống động, tương thích hoàn hảo trên cả máy tính và điện thoại.
+   - Bảng 4 bước cốt lõi tương ứng trong video giúp học sinh và giáo viên dễ dàng theo dõi.
    - Cẩm nang tóm tắt in nhanh 1 trang A4 (`window.print()`) dành cho giáo viên và phụ huynh.
 4. **Song ngữ Tiếng Việt / Tiếng Anh (Bilingual Switcher):**
    - Chuyển đổi ngôn ngữ tức thì với 1 cú click (giữ trạng thái qua `localStorage`), dịch toàn bộ 100% nội dung trang web.
@@ -109,12 +106,9 @@ git push -u origin main
 
 ---
 
-## ⚙️ Tùy Biến Khi Có Video Thật
-
-Nếu đội thi đã quay các video hướng dẫn thực tế và đăng lên YouTube, bạn có thể dễ dàng gắn link video thật:
-1. Mở file `js/main.js`.
-2. Tìm mảng `lessonsData`.
-3. Thay mã `youtubeId` của từng bài học bằng ID video YouTube thật của nhóm bạn (ví dụ: `youtubeId: "dQw4w9WgXcQ"`).
+## 🎬 Video Hướng Dẫn Chính Thức
+Video hướng dẫn thực tế trọn bộ các bước dệt kẹp sách Legasilk được phát trực tiếp từ kênh YouTube chính thức của dự án:
+👉 **https://www.youtube.com/watch?v=45Z-nhVSojE**
 
 ---
 
